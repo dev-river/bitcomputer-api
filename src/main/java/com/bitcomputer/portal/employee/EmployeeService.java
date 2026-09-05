@@ -47,4 +47,22 @@ public class EmployeeService {
         log.setNewValue(newValue);
         changeLogMapper.insert(log);
     }
+
+    public java.util.List<Employee> search(EmployeeSearchCriteria criteria) {
+        return employeeMapper.search(criteria);
+    }
+
+    public Employee getById(int id) {
+        Employee employee = employeeMapper.findById(id);
+        if (employee == null) {
+            throw new com.bitcomputer.portal.common.PortalException(
+                com.bitcomputer.portal.common.ErrorCode.ERR_NOT_FOUND, "직원을 찾을 수 없습니다: " + id);
+        }
+        return employee;
+    }
+
+    public void terminate(int id) {
+        getById(id);
+        employeeMapper.updateStatus(id, "TERMINATED", java.time.LocalDateTime.now());
+    }
 }
