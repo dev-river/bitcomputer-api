@@ -30,4 +30,12 @@ public class AuthService {
         String token = jwtTokenProvider.generateToken(account.getId(), account.getRole(), account.getEmployeeId());
         return new LoginResponse(token, account.isMustChangePassword());
     }
+
+    public void changePassword(int accountId, String currentPassword, String newPassword) {
+        Account account = accountMapper.findById(accountId);
+        if (account == null || !passwordEncoder.matches(currentPassword, account.getPasswordHash())) {
+            throw new PortalException(ErrorCode.ERR_UNAUTHORIZED, "현재 비밀번호가 올바르지 않습니다");
+        }
+        accountMapper.updatePasswordAndClearMustChange(accountId, passwordEncoder.encode(newPassword));
+    }
 }

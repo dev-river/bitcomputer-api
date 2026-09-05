@@ -21,6 +21,10 @@
         SELECT * FROM account WHERE employee_id = #{employeeId}
     </select>
 
+    <select id="findById" resultMap="accountResultMap">
+        SELECT * FROM account WHERE id = #{id}
+    </select>
+
     <insert id="insert" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO account (login_id, password_hash, role, employee_id, must_change_password, created_by_account_id)
         VALUES (#{loginId}, #{passwordHash}, #{role}, #{employeeId}, #{mustChangePassword}, #{createdByAccountId})
