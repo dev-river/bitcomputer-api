@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitcomputer.portal.bgc.BackgroundCheckMapper">
+
+    <resultMap id="bgcResultMap" type="com.bitcomputer.portal.bgc.BackgroundCheck">
+        <id property="id" column="id"/>
+        <result property="employeeId" column="employee_id"/>
+        <result property="externalCheckId" column="external_check_id"/>
+        <result property="status" column="status"/>
+        <result property="criminalRecord" column="criminal_record" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="educationVerified" column="education_verified" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="employmentVerified" column="employment_verified" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="creditScore" column="credit_score" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="errorMessage" column="error_message"/>
+        <result property="retryCount" column="retry_count"/>
+        <result property="lastErrorAt" column="last_error_at"/>
+        <result property="requestedAt" column="requested_at"/>
+        <result property="completedAt" column="completed_at"/>
+        <result property="maskedAt" column="masked_at"/>
+        <result property="triggeredByAccountId" column="triggered_by_account_id"/>
+    </resultMap>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO background_check (employee_id, external_check_id, status, requested_at, triggered_by_account_id)
+        VALUES (#{employeeId}, #{externalCheckId}, #{status}, #{requestedAt}, #{triggeredByAccountId})
+    </insert>
+
+    <select id="findById" resultMap="bgcResultMap">
+        SELECT * FROM background_check WHERE id = #{id}
+    </select>
+
+    <select id="findByEmployeeId" resultMap="bgcResultMap">
+        SELECT * FROM background_check WHERE employee_id = #{employeeId} ORDER BY requested_at DESC
+    </select>
+
+    <select id="existsPendingByEmployeeId" resultType="boolean">
+        SELECT COUNT(*) > 0 FROM background_check WHERE employee_id = #{employeeId} AND status = 'PENDING'
+    </select>
+
+    <select id="findAllPending" resultMap="bgcResultMap">
+        SELECT * FROM background_check WHERE status = 'PENDING'
+    </select>
+
+    <update id="updateAfterPollSuccess">
+        UPDATE background_check
+        SET status = #{status},
+            criminal_record = #{criminalRecord, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            education_verified = #{educationVerified, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            employment_verified = #{employmentVerified, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            credit_score = #{creditScore, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            completed_at = #{completedAt}
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateAfterPollError">
+        UPDATE background_check
+        SET error_message = #{errorMessage}, retry_count = retry_count + 1, last_error_at = #{lastErrorAt}
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateStatusToError">
+        UPDATE background_check SET status = 'ERROR', error_message = #{errorMessage} WHERE id = #{id}
+    </update>
+
+    <select id="findMaskCandidates" resultMap="bgcResultMap">
+        SELECT * FROM background_check
+        WHERE completed_at IS NOT NULL AND completed_at &lt;= #{cutoff} AND masked_at IS NULL
+    </select>
+
+    <update id="maskSensitiveFields">
+        UPDATE background_check
+        SET criminal_record = NULL, education_verified = NULL, employment_verified = NULL, credit_score = NULL,
+            masked_at = #{maskedAt}
+        WHERE id = #{id}
+    </update>
+
+</mapper>
