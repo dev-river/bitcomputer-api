@@ -1,8 +1,7 @@
 package com.bitcomputer.portal.crypto;
 
-import org.apache.ibatis.type.BaseTypeHandler;
 import org.apache.ibatis.type.JdbcType;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.ibatis.type.TypeHandler;
 import org.springframework.stereotype.Component;
 
 import java.sql.CallableStatement;
@@ -11,35 +10,34 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 @Component
-public class EncryptedStringTypeHandler extends BaseTypeHandler<String> {
+public class EncryptedStringTypeHandler implements TypeHandler<String> {
 
-    @Autowired
-    private AesCryptoUtil aesCryptoUtil;
-
-    public EncryptedStringTypeHandler() {
-    }
+    private final AesCryptoUtil aesCryptoUtil;
 
     public EncryptedStringTypeHandler(AesCryptoUtil aesCryptoUtil) {
         this.aesCryptoUtil = aesCryptoUtil;
     }
 
     @Override
-    public void setNonNullParameter(PreparedStatement ps, int i, String parameter, JdbcType jdbcType) throws SQLException {
-        ps.setString(i, aesCryptoUtil.encrypt(parameter));
+    public void setParameter(PreparedStatement ps, int i, String parameter, JdbcType jdbcType) throws SQLException {
+        ps.setString(i, parameter == null ? null : aesCryptoUtil.encrypt(parameter));
     }
 
     @Override
-    public String getNullableResult(ResultSet rs, String columnName) throws SQLException {
-        return aesCryptoUtil.decrypt(rs.getString(columnName));
+    public String getResult(ResultSet rs, String columnName) throws SQLException {
+        String raw = rs.getString(columnName);
+        return raw == null ? null : aesCryptoUtil.decrypt(raw);
     }
 
     @Override
-    public String getNullableResult(ResultSet rs, int columnIndex) throws SQLException {
-        return aesCryptoUtil.decrypt(rs.getString(columnIndex));
+    public String getResult(ResultSet rs, int columnIndex) throws SQLException {
+        String raw = rs.getString(columnIndex);
+        return raw == null ? null : aesCryptoUtil.decrypt(raw);
     }
 
     @Override
-    public String getNullableResult(CallableStatement cs, int columnIndex) throws SQLException {
-        return aesCryptoUtil.decrypt(cs.getString(columnIndex));
+    public String getResult(CallableStatement cs, int columnIndex) throws SQLException {
+        String raw = cs.getString(columnIndex);
+        return raw == null ? null : aesCryptoUtil.decrypt(raw);
     }
 }
