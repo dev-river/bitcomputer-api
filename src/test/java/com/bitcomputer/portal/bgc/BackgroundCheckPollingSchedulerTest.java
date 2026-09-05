@@ -10,6 +10,7 @@ import org.springframework.http.MediaType;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.client.MockRestServiceServer;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
 import java.time.LocalDateTime;
@@ -20,6 +21,13 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 
 @SpringBootTest
 @ActiveProfiles("test")
+// Transactional so this class's background_check inserts (EMP-004, EMP-005, EMP-006, EMP-008)
+// roll back after each test. Without this, pollOne_repeatedFailureBelowThreshold's EMP-006 insert
+// could collide with BackgroundCheckMapperIntegrationTest.insert_thenFindByEmployeeId_roundTrips,
+// which also inserts an EMP-006 row with no cleanup and asserts findByEmployeeId(...) has exactly
+// size 1 — the outcome would depend on test execution order. Same rollback pattern already used
+// elsewhere on this branch.
+@Transactional
 class BackgroundCheckPollingSchedulerTest {
 
     @Autowired private BackgroundCheckPollingScheduler scheduler;

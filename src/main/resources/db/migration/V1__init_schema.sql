@@ -8,7 +8,7 @@ CREATE TABLE employee (
     email          VARCHAR(100),
     date_of_birth  VARCHAR(200),
     phone          VARCHAR(200),
-    address        VARCHAR(500),
+    address        VARCHAR(1000),
     status         VARCHAR(20) NOT NULL DEFAULT 'ACTIVE',
     terminated_at  TIMESTAMP
 );

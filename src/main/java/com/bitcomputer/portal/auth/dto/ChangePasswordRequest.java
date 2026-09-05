@@ -1,7 +1,10 @@
 package com.bitcomputer.portal.auth.dto;
 
+import jakarta.validation.constraints.Size;
+
 public class ChangePasswordRequest {
     private String currentPassword;
+    @Size(min = 8, max = 100)
     private String newPassword;
 
     public String getCurrentPassword() { return currentPassword; }

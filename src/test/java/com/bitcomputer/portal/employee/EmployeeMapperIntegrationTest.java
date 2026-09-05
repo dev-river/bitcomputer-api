@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.test.context.ActiveProfiles;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
@@ -13,6 +14,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @ActiveProfiles("test")
+// Transactional so updateContactInfo_encryptsPhoneAndAddress's mutation of EMP-002 and
+// updateStatus_setsTerminatedAt's mutation of EMP-010 roll back after each test, instead of
+// leaking into the shared H2 instance for the rest of the suite. Flagged as latent risk back in
+// Task 8's review and never fixed until now (final whole-branch review). Same rollback pattern
+// already used elsewhere on this branch.
+@Transactional
 class EmployeeMapperIntegrationTest {
 
     @Autowired

@@ -10,6 +10,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
@@ -20,6 +21,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
+// Transactional so rerun_whenPendingExists_returns409's inserted PENDING background_check row for
+// EMP-010 rolls back after the test, instead of leaking into the shared H2 instance and affecting
+// other tests that read EMP-010's background-check history. Same rollback pattern already used
+// elsewhere on this branch.
+@Transactional
 class AdminBackgroundCheckControllerIntegrationTest {
 
     @Autowired private MockMvc mockMvc;

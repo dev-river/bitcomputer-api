@@ -5,6 +5,7 @@ import com.bitcomputer.portal.auth.dto.LoginRequest;
 import com.bitcomputer.portal.auth.dto.LoginResponse;
 import com.bitcomputer.portal.common.ApiResponse;
 import com.bitcomputer.portal.security.AuthenticatedAccount;
+import jakarta.validation.Valid;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -28,7 +29,7 @@ public class AuthController {
 
     @PostMapping("/change-password")
     public ApiResponse<Void> changePassword(@AuthenticationPrincipal AuthenticatedAccount principal,
-                                             @RequestBody ChangePasswordRequest request) {
+                                             @Valid @RequestBody ChangePasswordRequest request) {
         authService.changePassword(principal.accountId(), request.getCurrentPassword(), request.getNewPassword());
         return ApiResponse.success(null);
     }

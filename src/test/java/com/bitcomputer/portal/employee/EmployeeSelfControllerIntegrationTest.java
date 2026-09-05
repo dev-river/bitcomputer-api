@@ -8,6 +8,7 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.transaction.annotation.Transactional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.http.MediaType.APPLICATION_JSON;
@@ -20,6 +21,12 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
+// Transactional so patchMe_updatesContactInfoAndWritesChangeLog's and
+// patchMe_withPartialBody_leavesOtherFieldsUnchanged's mutations of EMP-001's contact info (and
+// the change-log rows they write) roll back after each test, instead of leaking into the shared
+// H2 instance and affecting other tests that read EMP-001's phone/email/address or change log.
+// Same rollback pattern already used elsewhere on this branch.
+@Transactional
 class EmployeeSelfControllerIntegrationTest {
 
     @Autowired private MockMvc mockMvc;
@@ -93,5 +100,19 @@ class EmployeeSelfControllerIntegrationTest {
             .andExpect(jsonPath("$.data.phone").value("010-3333-4444"))
             .andExpect(jsonPath("$.data.email").value("before@bitcomputer.kr"))
             .andExpect(jsonPath("$.data.address").value("서울시 종로구"));
+    }
+
+    @Test
+    void patchMe_withAddressOverMaxLength_returns400Validation() throws Exception {
+        String token = login("EMP-001", "ChangeMe123!");
+
+        String tooLongAddress = "가".repeat(201);
+        var body = objectMapper.createObjectNode().put("address", tooLongAddress);
+
+        mockMvc.perform(patch("/me").header("Authorization", "Bearer " + token)
+                .contentType(APPLICATION_JSON).content(body.toString()))
+            .andExpect(status().isBadRequest())
+            .andExpect(jsonPath("$.success").value(false))
+            .andExpect(jsonPath("$.error.code").value("ERR_VALIDATION"));
     }
 }

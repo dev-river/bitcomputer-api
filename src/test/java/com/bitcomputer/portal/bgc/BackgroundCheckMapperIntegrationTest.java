@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -14,6 +15,13 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @ActiveProfiles("test")
+// Transactional so this class's background_check inserts (EMP-006, EMP-008, EMP-009) roll back
+// after each test. Without this, insert_thenFindByEmployeeId_roundTrips's EMP-006 insert could
+// collide with BackgroundCheckPollingSchedulerTest.pollOne_repeatedFailureBelowThreshold, which
+// also inserts an EMP-006 row with no cleanup — both asserting on findByEmployeeId(...) results
+// for the same employee, making the outcome depend on test execution order. Same rollback pattern
+// already used elsewhere on this branch.
+@Transactional
 class BackgroundCheckMapperIntegrationTest {
 
     @Autowired private BackgroundCheckMapper backgroundCheckMapper;

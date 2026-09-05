@@ -75,6 +75,23 @@ class ChangePasswordIntegrationTest {
     }
 
     @Test
+    void changePassword_withNewPasswordTooShort_returns400Validation() throws Exception {
+        String token = loginAndGetToken("EMP-001", "ChangeMe123!");
+
+        var changeBody = objectMapper.createObjectNode()
+            .put("currentPassword", "ChangeMe123!")
+            .put("newPassword", "short1");
+
+        mockMvc.perform(post("/auth/change-password")
+                .header("Authorization", "Bearer " + token)
+                .contentType(APPLICATION_JSON)
+                .content(changeBody.toString()))
+            .andExpect(status().isBadRequest())
+            .andExpect(jsonPath("$.success").value(false))
+            .andExpect(jsonPath("$.error.code").value("ERR_VALIDATION"));
+    }
+
+    @Test
     void invalidToken_isRejectedWith401() throws Exception {
         mockMvc.perform(post("/auth/change-password")
                 .header("Authorization", "Bearer not-a-real-token")

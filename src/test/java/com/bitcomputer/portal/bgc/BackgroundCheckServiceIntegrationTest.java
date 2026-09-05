@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.client.MockRestServiceServer;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
@@ -21,6 +22,11 @@ import static org.springframework.test.web.client.response.MockRestResponseCreat
 
 @SpringBootTest
 @ActiveProfiles("test")
+// Transactional so this class's background_check inserts (EMP-002, EMP-003, EMP-007, via
+// triggerForEmployee/triggerManualRerun) roll back after each test, instead of leaking into the
+// shared H2 instance and affecting other tests' findByEmployeeId(...)/hasSize(1) assertions for
+// those employees. Same rollback pattern already used elsewhere on this branch.
+@Transactional
 class BackgroundCheckServiceIntegrationTest {
 
     @Autowired private BackgroundCheckService backgroundCheckService;

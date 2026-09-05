@@ -32,7 +32,7 @@ public class BgcSeedDataInitializer implements ApplicationRunner {
         List<BackgroundCheck> history = backgroundCheckMapper.findByEmployeeId(employee.getId());
         history.stream()
             .filter(c -> DEMO_CHECK_ID.equals(c.getExternalCheckId()))
-            .filter(c -> c.getCriminalRecord() == null)
+            .filter(c -> c.getCriminalRecord() == null && c.getMaskedAt() == null)
             .findFirst()
             .ifPresent(demoRow -> backgroundCheckMapper.updateAfterPollSuccess(
                 demoRow.getId(), "CLEAR", "false", "true", "true", "good", demoRow.getCompletedAt()));
