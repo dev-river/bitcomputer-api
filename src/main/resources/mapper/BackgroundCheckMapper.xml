@@ -21,8 +21,8 @@
     </resultMap>
 
     <insert id="insert" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO background_check (employee_id, external_check_id, status, requested_at, triggered_by_account_id)
-        VALUES (#{employeeId}, #{externalCheckId}, #{status}, #{requestedAt}, #{triggeredByAccountId})
+        INSERT INTO background_check (employee_id, external_check_id, status, error_message, requested_at, triggered_by_account_id)
+        VALUES (#{employeeId}, #{externalCheckId}, #{status}, #{errorMessage}, #{requestedAt}, #{triggeredByAccountId})
     </insert>
 
     <select id="findById" resultMap="bgcResultMap">
