@@ -1,6 +1,7 @@
 package com.bitcomputer.portal.employee;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import java.util.Objects;
 
 @Service
@@ -18,12 +19,21 @@ public class EmployeeService {
         return employeeMapper.findById(employeeId);
     }
 
+    @Transactional
     public void updateMyInfo(int employeeId, String phone, String email, String address) {
         Employee before = employeeMapper.findById(employeeId);
-        employeeMapper.updateContactInfo(employeeId, phone, email, address);
-        logIfChanged(employeeId, "phone", before.getPhone(), phone);
-        logIfChanged(employeeId, "email", before.getEmail(), email);
-        logIfChanged(employeeId, "address", before.getAddress(), address);
+        // A field omitted from the request body deserializes to null on UpdateMeRequest — treat
+        // that as "leave unchanged", not "clear it". Without this fallback, a partial PATCH body
+        // silently nulls out the other two columns and logs a bogus change-log entry recording a
+        // change the employee never made. Found during Task 7's review, not in the original brief.
+        String newPhone = phone != null ? phone : before.getPhone();
+        String newEmail = email != null ? email : before.getEmail();
+        String newAddress = address != null ? address : before.getAddress();
+
+        employeeMapper.updateContactInfo(employeeId, newPhone, newEmail, newAddress);
+        logIfChanged(employeeId, "phone", before.getPhone(), newPhone);
+        logIfChanged(employeeId, "email", before.getEmail(), newEmail);
+        logIfChanged(employeeId, "address", before.getAddress(), newAddress);
     }
 
     private void logIfChanged(int employeeId, String field, String oldValue, String newValue) {

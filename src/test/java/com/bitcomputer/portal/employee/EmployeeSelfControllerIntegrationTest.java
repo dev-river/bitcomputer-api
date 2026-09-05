@@ -71,4 +71,27 @@ class EmployeeSelfControllerIntegrationTest {
         mockMvc.perform(get("/me").header("Authorization", "Bearer " + token))
             .andExpect(status().isForbidden());
     }
+
+    @Test
+    void patchMe_withPartialBody_leavesOtherFieldsUnchanged() throws Exception {
+        String token = login("EMP-001", "ChangeMe123!");
+
+        var fullBody = objectMapper.createObjectNode()
+            .put("phone", "010-1111-2222")
+            .put("email", "before@bitcomputer.kr")
+            .put("address", "서울시 종로구");
+        mockMvc.perform(patch("/me").header("Authorization", "Bearer " + token)
+                .contentType(APPLICATION_JSON).content(fullBody.toString()))
+            .andExpect(status().isOk());
+
+        var partialBody = objectMapper.createObjectNode().put("phone", "010-3333-4444");
+        mockMvc.perform(patch("/me").header("Authorization", "Bearer " + token)
+                .contentType(APPLICATION_JSON).content(partialBody.toString()))
+            .andExpect(status().isOk());
+
+        mockMvc.perform(get("/me").header("Authorization", "Bearer " + token))
+            .andExpect(jsonPath("$.data.phone").value("010-3333-4444"))
+            .andExpect(jsonPath("$.data.email").value("before@bitcomputer.kr"))
+            .andExpect(jsonPath("$.data.address").value("서울시 종로구"));
+    }
 }
