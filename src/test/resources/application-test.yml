@@ -9,3 +9,6 @@ jwt:
   secret: dGVzdC1qd3Qtc2VjcmV0LWtleS10ZXN0LWp3dC1zZWNyZXQta2V5
 bgc:
   base-url: http://localhost:9999
+  polling-enabled: false   # the real @Scheduled loop must not run in tests — it would race with each
+                           # test's MockRestServiceServer expectations and poll leftover PENDING rows
+                           # committed by earlier tests. Tests call scheduler.pollOne(check) directly.

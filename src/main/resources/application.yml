@@ -27,6 +27,7 @@ bgc:
   retry-interval-ms: 1000   # placeholder
   poll-interval-ms: 5000    # placeholder
   max-poll-retry-count: 20  # placeholder
+  polling-enabled: true     # set to false in test profiles to avoid racing MockRestServiceServer expectations
   masking-cron: "0 0 3 * * *"
   masking-retention-days: 90
 
