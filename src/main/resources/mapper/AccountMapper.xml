@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitcomputer.portal.account.AccountMapper">
+
+    <resultMap id="accountResultMap" type="com.bitcomputer.portal.account.Account">
+        <id property="id" column="id"/>
+        <result property="loginId" column="login_id"/>
+        <result property="passwordHash" column="password_hash"/>
+        <result property="role" column="role"/>
+        <result property="employeeId" column="employee_id"/>
+        <result property="mustChangePassword" column="must_change_password"/>
+        <result property="createdByAccountId" column="created_by_account_id"/>
+        <result property="createdAt" column="created_at"/>
+    </resultMap>
+
+    <select id="findByLoginId" resultMap="accountResultMap">
+        SELECT * FROM account WHERE login_id = #{loginId}
+    </select>
+
+    <select id="findByEmployeeId" resultMap="accountResultMap">
+        SELECT * FROM account WHERE employee_id = #{employeeId}
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO account (login_id, password_hash, role, employee_id, must_change_password, created_by_account_id)
+        VALUES (#{loginId}, #{passwordHash}, #{role}, #{employeeId}, #{mustChangePassword}, #{createdByAccountId})
+    </insert>
+
+    <update id="updatePasswordAndClearMustChange">
+        UPDATE account SET password_hash = #{passwordHash}, must_change_password = false WHERE id = #{id}
+    </update>
+
+</mapper>

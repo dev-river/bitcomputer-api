@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitcomputer.portal.employee.EmployeeMapper">
+
+    <resultMap id="employeeResultMap" type="com.bitcomputer.portal.employee.Employee">
+        <id property="id" column="id"/>
+        <result property="empNo" column="emp_no"/>
+        <result property="name" column="name"/>
+        <result property="department" column="department"/>
+        <result property="position" column="position"/>
+        <result property="hireDate" column="hire_date"/>
+        <result property="email" column="email"/>
+        <result property="dateOfBirth" column="date_of_birth" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="phone" column="phone" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="address" column="address" typeHandler="com.bitcomputer.portal.crypto.EncryptedStringTypeHandler"/>
+        <result property="status" column="status"/>
+        <result property="terminatedAt" column="terminated_at"/>
+    </resultMap>
+
+    <select id="findById" resultMap="employeeResultMap">
+        SELECT * FROM employee WHERE id = #{id}
+    </select>
+
+    <select id="findByEmpNo" resultMap="employeeResultMap">
+        SELECT * FROM employee WHERE emp_no = #{empNo}
+    </select>
+
+    <select id="search" resultMap="employeeResultMap">
+        SELECT * FROM employee
+        <where>
+            <if test="empNo != null and empNo != ''">AND emp_no LIKE CONCAT('%', #{empNo}, '%')</if>
+            <if test="name != null and name != ''">AND name LIKE CONCAT('%', #{name}, '%')</if>
+            <if test="department != null and department != ''">AND department = #{department}</if>
+            <if test="status != null and status != ''">AND status = #{status}</if>
+        </where>
+        ORDER BY id
+    </select>
+
+    <update id="updateContactInfo">
+        UPDATE employee
+        SET phone = #{phone, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            email = #{email},
+            address = #{address, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler}
+        WHERE id = #{id}
+    </update>
+
+    <update id="updateStatus">
+        UPDATE employee SET status = #{status}, terminated_at = #{terminatedAt} WHERE id = #{id}
+    </update>
+
+    <update id="updateDateOfBirth">
+        UPDATE employee
+        SET date_of_birth = #{dateOfBirth, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler}
+        WHERE id = #{id}
+    </update>
+
+</mapper>
