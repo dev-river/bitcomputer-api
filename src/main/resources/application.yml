@@ -1,0 +1,35 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/bitcomputer}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+  flyway:
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-handlers-package: com.bitcomputer.portal.crypto
+
+aes:
+  secret-key: ${AES_SECRET_KEY}
+
+jwt:
+  secret: ${JWT_SECRET}
+  expiration-ms: 28800000   # 8h
+
+bgc:
+  base-url: ${BGC_API_BASE_URL:https://54capvm12g.execute-api.ap-northeast-2.amazonaws.com}
+  timeout-ms: 5000          # placeholder — finalize from MEASUREMENTS.md
+  retry-count: 2            # placeholder
+  retry-interval-ms: 1000   # placeholder
+  poll-interval-ms: 5000    # placeholder
+  max-poll-retry-count: 20  # placeholder
+  masking-cron: "0 0 3 * * *"
+  masking-retention-days: 90
+
+cors:
+  allowed-origin: ${FRONTEND_ORIGIN:http://localhost:5173}
