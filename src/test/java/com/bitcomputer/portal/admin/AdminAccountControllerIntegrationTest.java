@@ -67,4 +67,14 @@ class AdminAccountControllerIntegrationTest {
             .andExpect(status().isConflict())
             .andExpect(jsonPath("$.error.code").value("ERR_DUPLICATE"));
     }
+
+    @Test
+    void createAccount_withMissingEmployeeId_returns400InsteadOf500() throws Exception {
+        String adminToken = login("ADMIN-001", "ChangeMe123!");
+
+        mockMvc.perform(post("/admin/accounts").header("Authorization", "Bearer " + adminToken)
+                .contentType(APPLICATION_JSON).content("{}"))
+            .andExpect(status().isBadRequest())
+            .andExpect(jsonPath("$.error.code").value("ERR_VALIDATION"));
+    }
 }
