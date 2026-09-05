@@ -18,10 +18,14 @@ class EncryptedStringTypeHandlerRegistrationTest {
     }
 
     @Test
-    void constructorInjectionWorks() throws Exception {
-        var aesCryptoUtil = new AesCryptoUtil("MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDE=");
-        var handler = new EncryptedStringTypeHandler(aesCryptoUtil);
+    void isReachableByExplicitClassReference_andEncryptsCorrectly() throws Exception {
+        Configuration configuration = new Configuration();
+        var registry = configuration.getTypeHandlerRegistry();
+        var handler = new EncryptedStringTypeHandler(new AesCryptoUtil("MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDE="));
+        registry.register(String.class, handler);
 
-        assertThat(handler).isNotNull();
+        var resolved = registry.getTypeHandler(String.class);
+
+        assertThat(resolved).isSameAs(handler);
     }
 }
