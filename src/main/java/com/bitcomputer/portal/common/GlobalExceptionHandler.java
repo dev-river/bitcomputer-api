@@ -1,6 +1,7 @@
 package com.bitcomputer.portal.common;
 
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authorization.AuthorizationDeniedException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
@@ -12,6 +13,13 @@ public class GlobalExceptionHandler {
         return ResponseEntity
             .status(ex.getErrorCode().getHttpStatus())
             .body(ApiResponse.error(ex.getErrorCode().name(), ex.getMessage()));
+    }
+
+    @ExceptionHandler(AuthorizationDeniedException.class)
+    public ResponseEntity<ApiResponse<Void>> handleAuthorizationDenied(AuthorizationDeniedException ex) {
+        return ResponseEntity
+            .status(ErrorCode.ERR_FORBIDDEN.getHttpStatus())
+            .body(ApiResponse.error(ErrorCode.ERR_FORBIDDEN.name(), "접근 권한이 없습니다"));
     }
 
     @ExceptionHandler(Exception.class)

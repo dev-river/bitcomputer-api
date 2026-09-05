@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bitcomputer.portal.employee.EmployeeChangeLogMapper">
+
+    <resultMap id="changeLogResultMap" type="com.bitcomputer.portal.employee.EmployeeChangeLog">
+        <id property="id" column="id"/>
+        <result property="employeeId" column="employee_id"/>
+        <result property="fieldName" column="field_name"/>
+        <result property="oldValue" column="old_value"/>
+        <result property="newValue" column="new_value"/>
+        <result property="changedAt" column="changed_at"/>
+    </resultMap>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO employee_change_log (employee_id, field_name, old_value, new_value)
+        VALUES (#{employeeId}, #{fieldName}, #{oldValue}, #{newValue})
+    </insert>
+
+    <select id="findByEmployeeId" resultMap="changeLogResultMap">
+        SELECT * FROM employee_change_log WHERE employee_id = #{employeeId} ORDER BY changed_at DESC
+    </select>
+
+</mapper>
