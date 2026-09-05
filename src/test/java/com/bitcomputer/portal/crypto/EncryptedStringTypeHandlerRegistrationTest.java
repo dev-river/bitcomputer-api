@@ -22,9 +22,9 @@ class EncryptedStringTypeHandlerRegistrationTest {
         Configuration configuration = new Configuration();
         var registry = configuration.getTypeHandlerRegistry();
         var handler = new EncryptedStringTypeHandler(new AesCryptoUtil("MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDE="));
-        registry.register(String.class, handler);
+        registry.register(handler);
 
-        var resolved = registry.getTypeHandler(String.class);
+        var resolved = registry.getMappingTypeHandler(EncryptedStringTypeHandler.class);
 
         assertThat(resolved).isSameAs(handler);
     }
