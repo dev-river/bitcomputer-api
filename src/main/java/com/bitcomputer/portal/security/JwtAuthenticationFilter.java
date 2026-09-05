@@ -45,6 +45,10 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         if ("EMPLOYEE".equals(claims.role())) {
+            if (claims.employeeId() == null) {
+                writeError(response, HttpServletResponse.SC_UNAUTHORIZED, "ERR_UNAUTHORIZED", "유효하지 않은 토큰입니다");
+                return;
+            }
             Employee employee = employeeMapper.findById(claims.employeeId());
             if (employee == null || "TERMINATED".equals(employee.getStatus())) {
                 writeError(response, HttpServletResponse.SC_FORBIDDEN, "ERR_FORBIDDEN", "퇴사 처리된 계정입니다");

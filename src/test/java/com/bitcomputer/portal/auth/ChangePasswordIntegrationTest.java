@@ -82,4 +82,12 @@ class ChangePasswordIntegrationTest {
                 .content("{}"))
             .andExpect(status().isUnauthorized());
     }
+
+    @Test
+    void protectedRoute_withNoAuthorizationHeaderAtAll_returnsAppJsonEnvelope() throws Exception {
+        mockMvc.perform(post("/auth/change-password").contentType(APPLICATION_JSON).content("{}"))
+            .andExpect(status().isUnauthorized())
+            .andExpect(jsonPath("$.success").value(false))
+            .andExpect(jsonPath("$.error.code").value("ERR_UNAUTHORIZED"));
+    }
 }
