@@ -16,6 +16,12 @@ public class NameSplitter {
         }
         String trimmed = fullName.trim();
         for (String surname : COMPOUND_SURNAMES) {
+            if (trimmed.equals(surname)) {
+                // "남궁" alone (2 chars, no given name) would otherwise fall through to the generic
+                // 1-char-surname branch below and silently mis-split as "남"+"궁" — a compound
+                // surname with no given name is exactly as invalid as a bare single-character name.
+                throw new IllegalArgumentException("fullName too short to split: " + fullName);
+            }
             if (trimmed.startsWith(surname) && trimmed.length() > surname.length()) {
                 return new SplitName(surname, trimmed.substring(surname.length()));
             }

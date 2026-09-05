@@ -43,4 +43,9 @@ class NameSplitterTest {
     void singleCharacterName_throws() {
         assertThrows(IllegalArgumentException.class, () -> NameSplitter.split("김"));
     }
+
+    @Test
+    void bareCompoundSurnameWithNoGivenName_throws() {
+        assertThrows(IllegalArgumentException.class, () -> NameSplitter.split("남궁"));
+    }
 }
