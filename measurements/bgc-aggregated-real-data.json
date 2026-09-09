@@ -1,0 +1,5143 @@
+{
+  "allChecks": [
+    {
+      "checkId": "CHK-c9d7de03-d65d-4090-8579-26c9e474dfe4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:20:10.106Z",
+      "completedAt": "2026-09-03T14:20:47.742Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-5fc0800f-6d5c-433e-82fc-0250cfa9015d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:34:20.517Z",
+      "completedAt": "2026-09-03T14:35:38.054Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-f582ed63-f78e-476a-bf07-d23e2a87d37b",
+      "status": "flagged",
+      "createdAt": "2026-09-07T11:33:35.842Z",
+      "completedAt": "2026-09-07T11:33:37.613Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-e63ba8c0-51f9-401e-b0d7-ebd86ca08a2f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:41:21.633Z",
+      "completedAt": "2026-09-03T14:41:21.633Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-54cdb740-4dd3-489d-a5cd-60cabbc8e06a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:47.025Z",
+      "completedAt": "2026-09-03T14:33:47.025Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-a735967d-0e8d-43fd-a92e-a91ffc262075",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:06:06.155Z",
+      "completedAt": "2026-09-03T15:06:18.179Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-63e77adb-95b1-49a9-b3a6-9fc79d99d40b",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:28.134Z",
+      "completedAt": "2026-09-03T14:56:28.134Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-e22c4dd8-9e52-4a3f-8425-f38dbab5db63",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:40:54.643Z",
+      "completedAt": "2026-09-03T12:40:54.643Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-2adf6bcb-1600-49b1-a4cb-d6cd4d99d70e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:17.111Z",
+      "completedAt": "2026-09-03T14:37:17.111Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-118d7f1f-48b1-4e12-a1f3-a4ca208686bf",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:30:43.517Z",
+      "completedAt": "2026-09-03T14:30:56.076Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-cc9d7b58-a67c-4ad4-9cb9-d647d28e8fce",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:30:03.196Z",
+      "completedAt": "2026-09-03T14:30:20.357Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-67c9cac8-7a26-4b74-921b-e85367be206b",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:26:49.760Z",
+      "completedAt": "2026-09-03T14:26:49.760Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-cb8c8fb3-1e9f-4443-8eea-2968d7c27034",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:19.354Z",
+      "completedAt": "2026-09-03T15:12:19.354Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6df11f6c-c947-463e-b2ea-e270817b2691",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:25:00.105Z",
+      "completedAt": "2026-09-03T15:25:45.765Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-d3365bcf-f94b-4316-93b2-dcb06dd22396",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:21:57.722Z",
+      "completedAt": "2026-09-03T15:21:57.722Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-8277befd-71fb-4a68-a269-413d6e7a5111",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:42:24.134Z",
+      "completedAt": "2026-09-03T14:42:28.599Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-8c0bf9f4-062f-481d-8316-83498c70d368",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:47:27.610Z",
+      "completedAt": "2026-09-03T14:47:27.610Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-eda672c6-1694-468c-a338-9a6460b8cd6e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:05:57.476Z",
+      "completedAt": "2026-09-03T15:05:57.476Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-403e293b-a62f-4e66-96f8-c8a4ef392962",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:23:22.387Z",
+      "completedAt": "2026-09-03T15:23:23.634Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-2f933fc8-0bca-480b-96b7-fd7806e5719c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:27:54.408Z",
+      "completedAt": "2026-09-03T14:27:55.772Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-68e12428-13e4-4775-aeca-70b9a9d564e8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:19:37.012Z",
+      "completedAt": "2026-09-03T14:20:17.542Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c1e5dbda-c4e9-43a9-a88a-7ef97081bd0d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:20:56.979Z",
+      "completedAt": "2026-09-03T15:21:23.780Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-a9653455-28e4-45d6-b08f-afdce9a730c2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:12:32.327Z",
+      "completedAt": "2026-09-03T14:12:32.327Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-ee66b389-63f8-492d-ba2d-138c813dcb62",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:24:02.300Z",
+      "completedAt": "2026-09-03T14:24:04.779Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c1442205-b6bc-4dfc-b5d4-b66b944e72fb",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:02:05.617Z",
+      "completedAt": "2026-09-03T15:02:05.617Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-f24e774d-def8-426d-b279-f4551eb7b0c9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:18:44.665Z",
+      "completedAt": "2026-09-03T14:18:44.665Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-3d15f2fc-874f-4ea1-bfd2-740ac920d2c1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:25:31.726Z",
+      "completedAt": "2026-09-03T15:25:31.726Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-fce6c2c2-083d-41cc-af3e-2b85040e728c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:38:04.644Z",
+      "completedAt": "2026-09-03T14:38:48.513Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-2447aa30-f87a-435f-9010-22dbbaefb225",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:02:22.366Z",
+      "completedAt": "2026-09-03T15:02:22.366Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-87eb66f7-c6c9-4a34-8186-98082d5437b1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:12:46.547Z",
+      "completedAt": "2026-09-03T14:13:01.196Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-3ef89c24-c1c3-4314-807e-56f96f8c222c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:30:17.686Z",
+      "completedAt": "2026-09-03T15:30:30.422Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-22c7a7e6-7eb4-497c-b912-b52852112d4a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:21:55.624Z",
+      "completedAt": "2026-09-03T14:21:55.624Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-249ed2b8-8072-4646-934f-5099d9fc1d97",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:05.582Z",
+      "completedAt": "2026-09-03T14:37:05.582Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-304f833a-4008-4c0a-bd6b-274dae7ef5f5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:24:35.299Z",
+      "completedAt": "2026-09-03T15:24:36.594Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-bbc3b1d3-0a69-44f3-80eb-4e01104ea7cd",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:17:44.458Z",
+      "completedAt": "2026-09-03T15:18:56.608Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-17172bec-37ca-4c65-b4e2-a50332833692",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:20:48.157Z",
+      "completedAt": "2026-09-03T15:20:48.157Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c39a46d2-eaa4-4f00-9062-1ad4672d3956",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:24.027Z",
+      "completedAt": "2026-09-03T14:56:24.027Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-f77f8cc9-1458-4436-a31b-0bf8fff10e66",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:59:06.788Z",
+      "completedAt": "2026-09-03T14:59:06.788Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-56eb21bb-4518-4707-915b-b189c7eccaef",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:09:12.015Z",
+      "completedAt": "2026-09-03T15:09:12.015Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-afad0b1b-f6fa-42a4-a730-63fb1a240e7d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:18:07.172Z",
+      "completedAt": "2026-09-03T15:18:07.172Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-4d25a698-4a3b-4a7c-bee2-ae7fcbbae8e7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:44:16.715Z",
+      "completedAt": "2026-09-03T14:44:21.341Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-f7c755b5-b4b2-4e2b-9911-185294241b78",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:34:01.861Z",
+      "completedAt": "2026-09-03T14:35:30.907Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-897ba2b7-9150-43be-974a-bd2fba7736d3",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:13:48.474Z",
+      "completedAt": "2026-09-03T15:13:49.911Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6b587690-124d-4ef6-8d33-d8cfb07e8a2f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:05:41.396Z",
+      "completedAt": "2026-09-03T15:05:42.520Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-a382e7d4-6720-45dc-84b5-95221e9cb78a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:15:21.594Z",
+      "completedAt": "2026-09-03T14:15:42.829Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-91a06ecb-af9e-408e-a78c-22293e21aa53",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:38:10.759Z",
+      "completedAt": "2026-09-03T14:39:12.661Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-fbbf413b-ef9c-4e6e-b783-304c02444d34",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:07:39.701Z",
+      "completedAt": "2026-09-03T15:08:41.292Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-11822c9d-745d-4142-b66b-7d16492942dd",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:16:10.759Z",
+      "completedAt": "2026-09-03T15:16:10.759Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-0be480d1-0b98-47b7-b272-eaaa050b8aa0",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:22:30.758Z",
+      "completedAt": "2026-09-03T15:23:08.633Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c5c7d495-3452-438e-bb3b-07fb90cb64b6",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:53:48.920Z",
+      "completedAt": "2026-09-03T14:54:03.237Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-1f3afced-4e4a-48a8-9a53-d7a69ee990f5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:17:24.859Z",
+      "completedAt": "2026-09-03T14:18:13.963Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-cf2fdfaf-6f48-4dc9-b0ce-964102018c44",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:16:33.956Z",
+      "completedAt": "2026-09-03T15:16:33.956Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-03e2fb37-f3bf-4fac-8469-c10b26e0f2cd",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:23.499Z",
+      "completedAt": "2026-09-03T14:38:01.199Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c7e2749e-6c87-4425-b259-245cf957cd40",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:13:40.696Z",
+      "completedAt": "2026-09-03T15:14:54.566Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-b3dbea8a-e7c5-4748-b2ca-8db1242a9ace",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:42:35.091Z",
+      "completedAt": "2026-09-03T14:42:46.198Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-184b0a07-e45d-4be7-a390-79a2338e46e0",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:13:18.617Z",
+      "completedAt": "2026-09-03T14:13:18.617Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-ad86e135-1595-41bd-97dd-b861480f902f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:24:41.583Z",
+      "completedAt": "2026-09-03T14:24:41.583Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-80405566-95a0-4af2-a4ed-92e18bc80b58",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:07:13.911Z",
+      "completedAt": "2026-09-03T15:07:13.911Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-cc8792d0-e721-4a13-9b90-326aeb45e926",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:58:08.969Z",
+      "completedAt": "2026-09-03T14:58:08.969Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-81246e55-cc7b-4eaf-8ba9-728ac6840940",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:21:15.833Z",
+      "completedAt": "2026-09-03T14:21:15.833Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-0e0bda00-d142-487e-821c-0000b87a3dea",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:47:12.745Z",
+      "completedAt": "2026-09-03T14:47:12.745Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6c1f8169-8a34-4435-91dd-874961120d5e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:59.605Z",
+      "completedAt": "2026-09-03T14:37:59.605Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-d8edecdf-5562-4607-9197-7e7437ec80fa",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:19:07.840Z",
+      "completedAt": "2026-09-03T14:19:44.583Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-fca0fd22-ef37-4c9b-af01-2ab46933d152",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:22:59.576Z",
+      "completedAt": "2026-09-03T15:23:00.785Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-2c62eec9-7646-49d2-9c07-1aae724fb1d6",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:53:12.738Z",
+      "completedAt": "2026-09-03T14:53:12.738Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-8f803fc7-c42d-4095-9b3a-a7e4547daad9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:21:20.663Z",
+      "completedAt": "2026-09-03T14:21:20.663Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-1b70abb5-8643-4b85-95e5-142af7b5d3ac",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:15:17.872Z",
+      "completedAt": "2026-09-03T15:15:43.113Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-221d66d2-5123-4d6b-93c0-d6f441a72aad",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:40:08.308Z",
+      "completedAt": "2026-09-03T14:40:33.995Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-40ffdb4b-8c78-4403-8b5a-013de2662e75",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:41:57.712Z",
+      "completedAt": "2026-09-03T14:41:57.712Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-563f6c01-eaa3-4938-adc9-74393c67dda4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:34.589Z",
+      "completedAt": "2026-09-03T14:56:34.589Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-9e4f84be-6b37-40c6-bedd-e0c0f1677999",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:18:56.780Z",
+      "completedAt": "2026-09-03T15:18:56.780Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-8d3f27e1-cff0-4947-b97a-d2f95fdbc282",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:28:00.519Z",
+      "completedAt": "2026-09-03T14:28:11.280Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-7f3deef5-3eb0-4712-b239-dc1a83101113",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:22:04.220Z",
+      "completedAt": "2026-09-03T15:22:04.220Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-fb1f1c39-bbef-40f0-bf55-ad9059ce0fad",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:21:41.146Z",
+      "completedAt": "2026-09-03T15:21:41.146Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-e066c7f0-f118-44d9-9eb1-ef52ca66cc09",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:36:43.294Z",
+      "completedAt": "2026-09-03T14:36:43.294Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6c256256-f5f2-4743-9d05-cf0066283276",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:09:27.154Z",
+      "completedAt": "2026-09-03T15:09:27.154Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-68581d67-0cd8-4edb-99a7-a008d2113399",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:46:12.702Z",
+      "completedAt": "2026-09-03T14:46:30.099Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6801ad50-500f-421f-b932-0948f8816536",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:35:49.370Z",
+      "completedAt": "2026-09-03T14:35:49.370Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-ac788e33-70c0-4635-8979-68de901233ec",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:42:38.394Z",
+      "completedAt": "2026-09-03T12:43:17.584Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-367a5167-f990-4394-ba75-82daa7d3a1da",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:12:34.717Z",
+      "completedAt": "2026-09-03T14:12:34.717Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-32e489df-34a0-43b3-9710-75ad360e0006",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:02:58.549Z",
+      "completedAt": "2026-09-03T15:03:08.862Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-cac08b06-104e-4899-a473-dc5120042df7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:41:49.405Z",
+      "completedAt": "2026-09-03T14:41:49.405Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-0a21d917-a2ff-4bb8-bd3f-fe2e475059bc",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:57:20.524Z",
+      "completedAt": "2026-09-03T14:57:20.524Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-05e50bb8-41a9-4aef-9dc2-a496f14d5842",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:27.346Z",
+      "completedAt": "2026-09-03T14:33:39.739Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-21058d5c-9ee4-4cf5-8267-42b55a34ded8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:49.311Z",
+      "completedAt": "2026-09-03T15:12:49.311Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-5104ffa4-edca-4894-b178-96c81b311ffe",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:26:55.319Z",
+      "completedAt": "2026-09-03T15:26:55.319Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6d5f6576-7f77-46a9-9db1-fb7a96fee573",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:13:27.866Z",
+      "completedAt": "2026-09-03T15:13:29.471Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-22c00cb5-c9cf-41bb-bb07-77f2d6b8898a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:42.178Z",
+      "completedAt": "2026-09-03T14:56:42.178Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-08ee602d-ba35-4c7d-978d-b6f8ddf29fca",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:24:28.213Z",
+      "completedAt": "2026-09-03T15:24:28.213Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-63f46e9f-016f-4fd1-869d-bfbc4be71075",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:17:39.520Z",
+      "completedAt": "2026-09-03T14:18:33.634Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-ba19de3e-5c8c-421d-86a8-c8b145e6cccd",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:51:57.405Z",
+      "completedAt": "2026-09-03T14:52:12.038Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-e16cefc8-0954-4ea1-bff2-bc94f4e808d6",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:50:21.552Z",
+      "completedAt": "2026-09-03T14:50:21.552Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-3628a074-c3e9-454d-a3e2-b98ccc79cbc3",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:23:24.905Z",
+      "completedAt": "2026-09-03T14:23:26.419Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-fb9817d3-a157-4205-895a-9c8923cc2ee6",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:52:26.340Z",
+      "completedAt": "2026-09-03T14:53:25.878Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-8b108f4a-cdb9-475d-b548-493023cc74ec",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:25:21.022Z",
+      "completedAt": "2026-09-03T14:25:21.022Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-52e6b045-239c-4b92-9f70-da8901af567b",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:13.840Z",
+      "completedAt": "2026-09-03T14:33:13.840Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-eb7d204d-05f9-409b-908b-6c1962fef545",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:35:32.341Z",
+      "completedAt": "2026-09-03T14:35:32.341Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-b738fb57-5c6f-40b1-896d-2b8e74377fb5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:40:05.713Z",
+      "completedAt": "2026-09-03T14:40:08.181Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c8288f0f-9bd2-4ed7-9272-933d0603fb6b",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:20:50.606Z",
+      "completedAt": "2026-09-03T15:20:50.606Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-979f363a-9516-483d-8aa4-6f6429666857",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:15:48.385Z",
+      "completedAt": "2026-09-03T14:15:48.385Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-5c851b5a-e1ea-4250-a193-fb1c2232089c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:16:28.865Z",
+      "completedAt": "2026-09-03T15:16:28.865Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-a313720c-9a87-4505-8bdb-0b0d4772b034",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:46:49.410Z",
+      "completedAt": "2026-09-03T14:46:49.410Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-cda1aafc-5c2d-4848-9ea2-bdb83f467ce9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:13:52.883Z",
+      "completedAt": "2026-09-03T14:13:52.883Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-6b2dcd48-45e2-4667-bbe6-c1b7811c7c33",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:52.727Z",
+      "completedAt": "2026-09-03T15:12:52.727Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-2d690810-e193-4113-8823-2e931c9cdac8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:26:41.279Z",
+      "completedAt": "2026-09-03T14:26:41.279Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-37223db0-9761-4aff-9746-bbdd34129879",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:53:00.406Z",
+      "completedAt": "2026-09-03T14:53:00.406Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-23faf7f6-0967-45d2-966f-8bb54b00fca1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:17.295Z",
+      "completedAt": "2026-09-03T14:33:17.295Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-7e26d9f7-ecac-4bfe-8052-262c2a4c0330",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:05:39.036Z",
+      "completedAt": "2026-09-03T15:05:39.036Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-d554d953-8740-4a6e-8da1-16de32e0d2e9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:17:28.358Z",
+      "completedAt": "2026-09-03T15:17:28.358Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-2503efb1-ee7d-458c-ad35-3c44a5a725c5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:00:16.960Z",
+      "completedAt": "2026-09-03T15:00:16.960Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-78de595f-512e-4f4b-9576-d2661e7b7575",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:00:23.682Z",
+      "completedAt": "2026-09-03T15:01:04.750Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-ce05f886-873c-4682-886a-39c5effc71d2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:15:05.546Z",
+      "completedAt": "2026-09-03T15:15:05.546Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-c86ca33f-df49-4632-8670-e4c22423708e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:36:47.153Z",
+      "completedAt": "2026-09-03T14:36:47.153Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-a7651615-6c8b-4f6b-b72b-a822c39b6a7f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:08:43.932Z",
+      "completedAt": "2026-09-03T15:08:43.932Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-3df5630f-4538-4720-816b-d5784c4084c8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:44:24.107Z",
+      "completedAt": "2026-09-03T14:44:25.558Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-9849753e-a401-4de7-a07b-753261ddb8c8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:29:39.224Z",
+      "completedAt": "2026-09-03T14:29:39.224Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-e34f015a-4709-4d8d-9bee-fd73df84eec7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:26:18.526Z",
+      "completedAt": "2026-09-03T15:26:18.526Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-95099fc7-87a7-45f0-9436-17e378f93fa9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:01:04.543Z",
+      "completedAt": "2026-09-03T15:01:04.543Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-1a86ba24-059e-4b85-a59f-f0e6675073c1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:57:49.317Z",
+      "completedAt": "2026-09-03T14:57:49.317Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-aa008513-cb09-4baf-9fb2-160a11772e31",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:28:48.125Z",
+      "completedAt": "2026-09-03T14:28:48.125Z",
+      "employeeId": "EMP-008"
+    },
+    {
+      "checkId": "CHK-1ba5878c-394a-4c04-a0c3-21cf73510148",
+      "status": "flagged",
+      "createdAt": "2026-09-07T10:12:55.388Z",
+      "completedAt": "2026-09-07T10:12:55.388Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-25c5190a-2ffd-4255-9435-4666553a90f2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:34:53.742Z",
+      "completedAt": "2026-09-03T14:34:53.742Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d5768955-40d0-4ce5-8a89-30df39351e72",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:18:54.145Z",
+      "completedAt": "2026-09-03T14:18:54.145Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ad2c6607-2a00-4fd4-8212-bd71193f3a64",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:34:13.811Z",
+      "completedAt": "2026-09-03T14:34:13.811Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5273a62e-f7f2-484e-aaf7-7fb4f0484ff7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:40.303Z",
+      "completedAt": "2026-09-03T12:43:40.303Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-0cb0a283-bada-4bd0-86dd-ca33bceb00cf",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:15.085Z",
+      "completedAt": "2026-09-03T14:33:15.085Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-aaa468dc-b15b-478a-b2b1-bc4c484f9df7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:41:23.816Z",
+      "completedAt": "2026-09-03T14:41:23.816Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-89db45f3-8083-40f5-bde1-424bc038ea84",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:36:49.356Z",
+      "completedAt": "2026-09-03T14:36:50.570Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ee91ea59-3c03-4ddf-bea5-4595162248dc",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:41:42.266Z",
+      "completedAt": "2026-09-03T12:41:42.266Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6a7d6548-3967-4012-9d6f-444525881a06",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:19:13.706Z",
+      "completedAt": "2026-09-03T15:19:13.706Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5e49aa50-c81a-45f8-a956-cc9b6c154757",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:36:44.425Z",
+      "completedAt": "2026-09-03T14:37:50.732Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-3081db80-1878-46e2-a712-41a5975b0951",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:25:25.421Z",
+      "completedAt": "2026-09-03T14:26:08.033Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1f59db08-63d9-4858-ba39-369e9f8b261a",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:39.424Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-94562df7-4a72-45da-9ec6-8a45b1d67d59",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.028Z",
+      "completedAt": "2026-09-03T12:43:39.028Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ea8f392a-a786-417a-bfbe-caf7123ebc0b",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:19.013Z",
+      "completedAt": "2026-09-03T14:33:19.013Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-c6e79756-fedf-4854-9cf4-d5d0a60eb1b7",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:40.182Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-22a4520e-ad1f-4733-9557-fdf59977c16c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:40.826Z",
+      "completedAt": "2026-09-03T12:43:40.826Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1ab4c639-2702-4733-a861-b331971b98e4",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:40.829Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-2f9a0503-bdda-4f4f-a800-b285b313025f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:15:32.522Z",
+      "completedAt": "2026-09-03T14:15:32.522Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-b31b5416-55be-419a-8d66-78eb1c70b1ae",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:14:46.137Z",
+      "completedAt": "2026-09-03T14:15:19.791Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-e7a260e1-f6d6-4825-b9af-d54f6c348552",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:22:20.321Z",
+      "completedAt": "2026-09-03T14:22:20.321Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6b544668-7781-4182-9fb2-510456214d4b",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:40:34.908Z",
+      "completedAt": "2026-09-07T09:41:02.696Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-8d8f792c-5535-4a75-9171-7a58719eca95",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:15:27.887Z",
+      "completedAt": "2026-09-03T15:16:00.211Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5a02b725-5850-452c-bf50-2a6b89736d05",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:37:42.519Z",
+      "completedAt": "2026-09-07T09:37:42.519Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-664f5a73-55d3-4421-8f67-fd8c551626d1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:23:28.841Z",
+      "completedAt": "2026-09-03T14:24:01.076Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-93c7309f-ec47-443a-9ba2-0a1d04b5443f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:26:59.249Z",
+      "completedAt": "2026-09-03T15:27:00.719Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5ef3542e-55b6-47c9-80de-5f7ccca660dc",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:07:18.391Z",
+      "completedAt": "2026-09-03T15:07:18.391Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-2aa48bdc-abde-40c6-9977-a44a3c9eb1d8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:31.450Z",
+      "completedAt": "2026-09-03T14:56:31.450Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-2c0899a9-212e-47df-a05f-2a376654fc31",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:52:43.899Z",
+      "completedAt": "2026-09-03T14:52:43.899Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-11d8c179-ab36-42e1-9c53-114ac310ae9f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:24:29.294Z",
+      "completedAt": "2026-09-03T15:25:23.573Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-f65d0c04-2e97-4605-8436-64a6bddb57a7",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:34:58.305Z",
+      "completedAt": "2026-09-07T09:36:06.156Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-129ef5b5-9b08-40e6-9c46-a9bacb96e64e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:40.958Z",
+      "completedAt": "2026-09-03T14:33:42.539Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-39d183ea-5fbc-4aa9-b649-0a408f781daf",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:50.457Z",
+      "completedAt": "2026-09-03T15:12:50.457Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-58b8335d-ec2d-47c7-9f77-858ea97253ca",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:40.240Z",
+      "completedAt": "2026-09-03T12:43:40.240Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-aee08b93-7bfc-4358-813d-47b6bbd109bd",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:40:05.742Z",
+      "completedAt": "2026-09-03T14:40:05.742Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-fcaf749b-3253-4131-913a-7a1e3164ee7f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:44:19.493Z",
+      "completedAt": "2026-09-03T14:44:19.493Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-0095034a-5a7f-49f7-8db0-c54613a01653",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:42:58.593Z",
+      "completedAt": "2026-09-03T14:42:58.593Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-83f719b3-2149-46da-b69b-c1c8e220153c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:08:29.446Z",
+      "completedAt": "2026-09-03T15:08:29.446Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-cccac2b6-3219-4a2e-a842-eb6a728374c4",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:34:06.100Z",
+      "completedAt": "2026-09-07T09:34:27.616Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-366fd4be-4324-4978-8df0-4765b148f822",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:40:33.372Z",
+      "completedAt": "2026-09-03T12:40:35.080Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-7ec97303-c293-4826-8803-ac28daf775ce",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:17:23.701Z",
+      "completedAt": "2026-09-03T14:17:26.432Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1e341563-e7e2-4096-9af4-0964eff1b9f4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:19:16.228Z",
+      "completedAt": "2026-09-03T14:19:16.228Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a3e6dc18-f133-4ea4-82da-b7632ef43736",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:19:54.710Z",
+      "completedAt": "2026-09-03T14:19:54.710Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1c38d15a-64fc-4259-b2c0-b6b9e9e66ae7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:25:15.119Z",
+      "completedAt": "2026-09-03T15:25:31.593Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d65a3341-682b-44c6-8fe0-11a8f03163d8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:20:49.296Z",
+      "completedAt": "2026-09-03T15:20:49.296Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-7d106946-d6b6-48c9-a1df-9b82c8f16053",
+      "status": "flagged",
+      "createdAt": "2026-09-07T08:26:46.434Z",
+      "completedAt": "2026-09-07T08:26:46.434Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ac0c6515-6d89-4fb7-9b1d-eb78bce3a0a2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:37.374Z",
+      "completedAt": "2026-09-03T14:56:37.374Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-97572472-b0f6-4d46-9b6b-ec876cd270d9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:26:34.565Z",
+      "completedAt": "2026-09-03T15:26:34.565Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-983fd694-07b4-470f-bd9a-48f5080ab927",
+      "status": "flagged",
+      "createdAt": "2026-09-02T17:21:52.841Z",
+      "completedAt": "2026-09-02T17:21:52.841Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-da4c5b98-a923-4b1f-9bf5-e238b2f4a878",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:56:25.279Z",
+      "completedAt": "2026-09-03T14:57:18.736Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-9e9c62f9-2639-4520-aaa9-741b4aa409e2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:22:00.897Z",
+      "completedAt": "2026-09-03T15:22:00.897Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-dd81a3f1-6ff6-4779-9205-3935cf8bb8f8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:29:44.049Z",
+      "completedAt": "2026-09-03T14:29:56.419Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-98d1a669-359c-4216-a952-0f8ad6f0fa86",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:27:57.225Z",
+      "completedAt": "2026-09-03T14:27:57.225Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-18fb104f-e33d-4e27-bae7-9d2f62434224",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:37:42.599Z",
+      "completedAt": "2026-09-07T09:38:10.197Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-618b2b51-599c-43d7-a53a-0e1cd687936d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:13:07.087Z",
+      "completedAt": "2026-09-03T14:13:07.087Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-574115e3-1bd2-44a7-a10b-4f268e1f9e3c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:09:21.082Z",
+      "completedAt": "2026-09-03T15:09:21.082Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1ff8a8ed-2305-41fc-a105-4f97d94512cc",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:32:09.649Z",
+      "completedAt": "2026-09-07T09:32:09.649Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5a8909f3-fd68-4dce-948b-460fa2e91455",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:24:40.484Z",
+      "completedAt": "2026-09-03T15:24:40.484Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a8542438-c158-4d76-a856-50915f81cb50",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:33:53.120Z",
+      "completedAt": "2026-09-03T14:33:53.120Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-40caacd2-10a7-4d41-819c-273dce3b7fc6",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:23:08.087Z",
+      "completedAt": "2026-09-03T15:23:08.087Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-c9f0f658-9e3f-4ce1-9403-53d87d9d302c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:05:40.245Z",
+      "completedAt": "2026-09-03T15:05:40.245Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a4307220-8b71-4cdc-bd01-26e93d0916d7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:54.954Z",
+      "completedAt": "2026-09-03T15:13:10.851Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-f40b3a86-ce08-4772-9b26-dc82cc2689be",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:38:02.426Z",
+      "completedAt": "2026-09-03T14:38:02.426Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-76635a3e-d829-4183-ac67-210a3cb9bad9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:05:42.614Z",
+      "completedAt": "2026-09-03T15:05:42.614Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d1c5ddf2-7499-4892-80d7-6ff3b7e22527",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:39.522Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5df048ec-ce0c-4ebf-a8f4-cd791305d54e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:20.415Z",
+      "completedAt": "2026-09-03T14:37:20.415Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5bec16e3-b0ed-4467-b9f0-62464de23758",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:46:53.810Z",
+      "completedAt": "2026-09-03T14:46:53.810Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-c14ee960-f6bc-453a-aba2-cd82370cfcc8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:11.436Z",
+      "completedAt": "2026-09-03T14:37:11.436Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-aa5ada1d-2052-4f57-a084-77fecbe02be8",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:39.746Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-581b527c-7933-4795-9bef-480c8f9791ac",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:16:27.713Z",
+      "completedAt": "2026-09-03T15:16:28.971Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-20057761-93e9-4922-b671-cbad67902b42",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:40.285Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-045017c4-75f7-4856-a1cb-ec62c1d5e64a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:13:34.547Z",
+      "completedAt": "2026-09-03T15:13:34.547Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-811c00d9-3a3e-48f0-9e88-33c6a6f9cac5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:21:18.003Z",
+      "completedAt": "2026-09-03T14:21:18.003Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-86fa0fbc-0b9c-4b1d-8f02-bb6f51252ac5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:13:44.086Z",
+      "completedAt": "2026-09-03T15:13:44.086Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-61d026d2-bcc1-4c2a-8799-63315177c301",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:30:08.120Z",
+      "completedAt": "2026-09-03T14:30:08.120Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-f7ea015f-512b-41c7-a95a-e32497d06c35",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:01:13.288Z",
+      "completedAt": "2026-09-03T15:01:13.288Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5f39e0ba-881c-43b8-81b4-db008ed5b9d5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:38:48.155Z",
+      "completedAt": "2026-09-03T14:39:01.965Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-e72ec172-e2e8-4d61-83b4-73da24884db4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:53:05.208Z",
+      "completedAt": "2026-09-03T14:54:25.234Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-462a6c6a-544a-459c-ae90-21c73c0c5c0c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:40.786Z",
+      "completedAt": "2026-09-03T12:43:40.786Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-18e4d25b-9306-420b-b594-4807dca3a0b3",
+      "status": "flagged",
+      "createdAt": "2026-09-06T13:22:02.313Z",
+      "completedAt": "2026-09-06T13:22:07.082Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-29cde2a0-624b-4f9b-aaeb-b07f39407f65",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:21:43.837Z",
+      "completedAt": "2026-09-03T15:21:56.467Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-9c2473a4-ee98-4c9b-89a0-77108ed310c1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:08:49.752Z",
+      "completedAt": "2026-09-03T15:09:13.229Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1f2ccabd-778c-4c9d-834a-2be516c4623a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:00:18.102Z",
+      "completedAt": "2026-09-03T15:00:18.102Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ffb90135-c5ed-410c-988c-f3d4df0b4dc1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:02:27.029Z",
+      "completedAt": "2026-09-03T15:02:58.402Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6a64bd13-1aa2-4c0e-b27b-3dc597aefd83",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:00:15.798Z",
+      "completedAt": "2026-09-03T15:00:15.798Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-0337595a-a4f3-4575-ad8c-53a87e05e60b",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:47:40.675Z",
+      "completedAt": "2026-09-03T14:47:40.675Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-61716be3-c653-488c-a7e6-45665624a6d5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:25:13.806Z",
+      "completedAt": "2026-09-03T14:25:15.138Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-215dc1eb-8b0f-4ad2-88ed-a3702a39827a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:58:58.877Z",
+      "completedAt": "2026-09-03T14:58:58.877Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-903d60d5-a17e-49ce-bc2a-49d998563c7a",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:34:27.823Z",
+      "completedAt": "2026-09-07T09:34:58.178Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d82988a1-0da4-43d9-81ee-275b71bee1a7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:32:40.295Z",
+      "completedAt": "2026-09-03T14:33:13.645Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-86a65968-cae3-4d20-81cb-5815fac96b1e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.311Z",
+      "completedAt": "2026-09-03T12:43:39.311Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-66a189a0-bf1d-4000-8550-2deedbbe2309",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:12:38.633Z",
+      "completedAt": "2026-09-03T14:12:43.320Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-84fb30be-9ef8-47ec-abe7-bfeda1c3f738",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:06:00.266Z",
+      "completedAt": "2026-09-03T15:06:00.266Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d4b4a21a-0a7f-4da3-8b87-69f46978c14c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:18:10.443Z",
+      "completedAt": "2026-09-03T14:18:38.854Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-9861bb64-50f3-41a3-9245-8dff2a896972",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:21:27.321Z",
+      "completedAt": "2026-09-03T15:21:27.321Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-06b8665e-bfe0-484c-af06-aef8b49fca4a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:42:30.913Z",
+      "completedAt": "2026-09-03T14:42:30.913Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-761d39ec-083a-41aa-b6ba-665a3bdfb993",
+      "status": "flagged",
+      "createdAt": "2026-09-07T08:26:38.580Z",
+      "completedAt": "2026-09-07T08:26:41.685Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a5dfc2ab-9e14-40c2-80a3-65b6c5ef1d21",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:25:53.150Z",
+      "completedAt": "2026-09-03T15:26:36.365Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-22d73978-d5a2-49db-bcfe-68a722ad584e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:20:52.180Z",
+      "completedAt": "2026-09-03T15:21:23.636Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-9917a46f-b966-4bf2-a488-2b71dab3583a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:24:27.094Z",
+      "completedAt": "2026-09-03T15:24:27.094Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-f0055152-5bc6-46a1-a591-8ce7a3dc6679",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:27:53.186Z",
+      "completedAt": "2026-09-03T14:28:07.033Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-9a39d3a8-90c3-4adf-8155-0f44d5634818",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:12:33.494Z",
+      "completedAt": "2026-09-03T14:12:33.494Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d1ad634e-ebc1-454a-a898-dc9f146a6cd3",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:54:13.473Z",
+      "completedAt": "2026-09-03T14:55:31.977Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-41f94a5a-fa3d-4f23-a1ce-4de330dd3d69",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:21:14.682Z",
+      "completedAt": "2026-09-03T14:21:14.682Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6d8afaf3-7298-43e3-a936-1a3cbd837388",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:22:08.642Z",
+      "completedAt": "2026-09-03T15:22:20.713Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-17b2f58f-3233-4008-b9dc-3ecdeb5f53cf",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:36:42.120Z",
+      "completedAt": "2026-09-03T14:36:42.120Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6c15c8ee-c61c-4fd0-a1d4-656241b9750a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:21.489Z",
+      "completedAt": "2026-09-03T15:12:21.489Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-f112ecf5-244b-41a0-b6b8-1d0e46d7967a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:03:02.262Z",
+      "completedAt": "2026-09-03T15:03:18.322Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-cd425c8d-fe5e-40fa-81b8-88d84c4514d3",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.858Z",
+      "completedAt": "2026-09-03T12:43:39.858Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-89396423-8c99-4623-893d-415942d8e7e4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:40:41.532Z",
+      "completedAt": "2026-09-03T14:41:13.215Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a9b04cde-2f14-444d-ac66-2ac232d57cdb",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:40.182Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-7ea7f748-5545-40de-b0a9-521d7fafacb2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:42:02.866Z",
+      "completedAt": "2026-09-03T14:42:02.866Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-215751a4-41db-4964-bcbe-3499f7f6917d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:21:22.923Z",
+      "completedAt": "2026-09-03T14:21:44.344Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-84179d0f-0416-4cc6-9d7e-e54dd743cf0a",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:43:40.243Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1d727837-9ae9-4bd6-a2ab-8d0d62cac361",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:37:38.181Z",
+      "completedAt": "2026-09-07T09:37:42.419Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-97f34a82-9be8-4b5e-b520-75efebe51ef9",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:46:26.385Z",
+      "completedAt": "2026-09-03T14:46:26.385Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-b39e70fd-f34f-408c-ad2d-320628e47504",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:47:22.073Z",
+      "completedAt": "2026-09-03T14:47:22.073Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-0e4ab0b8-0c79-4532-8040-eb96d2ad8df0",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:51:56.236Z",
+      "completedAt": "2026-09-03T14:51:56.236Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-c9f87938-900d-46c6-a88d-3f07e01951d2",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:12:29.823Z",
+      "completedAt": "2026-09-03T14:12:40.300Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6fd9a0b4-9e80-4196-8bd1-29205cd4d565",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:34:27.735Z",
+      "completedAt": "2026-09-07T09:34:27.735Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-de4c4bc0-10b1-4378-ad7e-ca06f25c6cd1",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.233Z",
+      "completedAt": "2026-09-03T14:05:56.822Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ca869a2b-efd0-477c-ad31-f69639956778",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:26:43.547Z",
+      "completedAt": "2026-09-03T14:27:22.862Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-bc9a6d19-2c6c-4fbc-8438-9f853f8d5743",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:57:24.154Z",
+      "completedAt": "2026-09-03T14:57:26.774Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-e0cf17df-4010-418b-a482-3c527ee0e503",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:06:18.288Z",
+      "completedAt": "2026-09-03T15:06:18.288Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-2ff4ac6e-e89d-4931-919c-a9b0824bb490",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:17:27.134Z",
+      "completedAt": "2026-09-03T14:18:41.783Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-fb2d72f4-e2fc-4d67-899d-2022f7aef030",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:57:55.303Z",
+      "completedAt": "2026-09-03T14:58:17.067Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d63f1da6-505b-4250-95d1-eb20504e08a4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:57:16.103Z",
+      "completedAt": "2026-09-03T14:57:16.103Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a7ff6a42-ed55-4c6e-9cc8-475d4f958380",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.963Z",
+      "completedAt": "2026-09-03T12:43:39.963Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-456bb423-e704-4fab-9342-9f2b7782f8e8",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:14:50.128Z",
+      "completedAt": "2026-09-03T15:14:50.128Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-2c33976b-af67-4b00-9213-6c2a27c884ee",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:28:08.255Z",
+      "completedAt": "2026-09-03T14:28:51.619Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-b0132f03-73ee-4aa8-b702-e66f5981ea03",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:53:25.058Z",
+      "completedAt": "2026-09-03T14:53:25.058Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a6cb21ab-dfc3-4f98-a42e-e40cd25e325f",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:16:30.194Z",
+      "completedAt": "2026-09-03T15:16:31.671Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-0e2e70b1-ff50-415f-991b-7b0ab81bedcb",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:38:06.403Z",
+      "completedAt": "2026-09-03T14:38:06.403Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5cdffc32-c642-46ab-8d23-dad90df79398",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.132Z",
+      "completedAt": "2026-09-03T12:43:39.132Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-4f2f8e84-d822-43e5-b428-3d5140bdb5ae",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:15:08.614Z",
+      "completedAt": "2026-09-03T15:15:08.614Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5a121f76-b0c2-426e-abee-f5dea871eeaf",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:45:07.484Z",
+      "completedAt": "2026-09-03T14:46:43.095Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-dad07f4d-d917-48cf-b5ae-0c41d398eb29",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:18:22.651Z",
+      "completedAt": "2026-09-03T15:18:22.651Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-58d57f9b-8f2d-465e-8f2a-a8bb35d27d5d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:41:51.672Z",
+      "completedAt": "2026-09-03T14:41:51.672Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-23e7b852-9a74-4838-9ce8-5a332f8e8c01",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:17:32.874Z",
+      "completedAt": "2026-09-03T15:17:32.874Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-b1e35907-d04b-4467-9a39-5c8c0b00fea7",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:35:40.102Z",
+      "completedAt": "2026-09-03T14:35:40.102Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-b3a49c81-3bc8-47a0-8204-060f9ce441ba",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:17:50.978Z",
+      "completedAt": "2026-09-03T15:17:50.978Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-a2f704ef-d820-435c-9a05-aece86bacf67",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:52:00.370Z",
+      "completedAt": "2026-09-03T14:52:13.360Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5a23507a-43d8-4006-b1b7-625d1b6cb614",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:00:57.663Z",
+      "completedAt": "2026-09-03T15:00:57.663Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-61939eaf-e53e-4dd9-92dc-80203b494742",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:24:16.643Z",
+      "completedAt": "2026-09-03T14:24:21.068Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-db9deb73-92f3-4e47-b31f-6e5eb59ed981",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:37:53.074Z",
+      "completedAt": "2026-09-03T14:39:00.745Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-8884d352-9558-4f05-b368-cddae869ca2c",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:22:51.687Z",
+      "completedAt": "2026-09-03T15:23:02.847Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-4ea276bb-c316-4e0d-a404-3a9d089470c5",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:39.649Z",
+      "completedAt": "2026-09-03T12:43:39.649Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-71c78c1f-e138-438a-b06c-f3b2e6d1f4d4",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:16:47.835Z",
+      "completedAt": "2026-09-03T15:16:47.835Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-5c754cce-8950-4b7f-b287-eb8f86033414",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:28:54.423Z",
+      "completedAt": "2026-09-03T14:28:54.423Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-ac7e1d06-27a8-4210-b63d-31179596b89a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:12:18.082Z",
+      "completedAt": "2026-09-03T15:12:18.082Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-0e84a340-4761-4076-9f38-933e34ede21a",
+      "status": "flagged",
+      "createdAt": "2026-09-07T09:38:10.302Z",
+      "completedAt": "2026-09-07T09:38:23.056Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-b15aa906-7cca-441d-8b39-4ddae0d4961a",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:43:40.851Z",
+      "completedAt": "2026-09-03T12:43:40.851Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-1991ca98-df14-4953-ae98-b9c4a276413e",
+      "status": "flagged",
+      "createdAt": "2026-09-03T14:13:49.018Z",
+      "completedAt": "2026-09-03T14:13:49.018Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-d7f0c8f8-3f53-40f8-95b1-efe3d54f21ea",
+      "status": "pending",
+      "createdAt": "2026-03-29T06:40:14.854Z",
+      "completedAt": null,
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-6a7dbbfc-5eb9-476c-b323-79f99fad5f92",
+      "status": "flagged",
+      "createdAt": "2026-09-03T15:02:10.318Z",
+      "completedAt": "2026-09-03T15:02:10.318Z",
+      "employeeId": "EMP-002"
+    },
+    {
+      "checkId": "CHK-8ef32249-a8ed-4049-a133-684f4ede12f2",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:17:33.971Z",
+      "completedAt": "2026-09-03T15:17:33.971Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-2ec55eb9-425e-47da-9489-12435b6b551f",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:42.708Z",
+      "completedAt": "2026-09-03T15:05:42.708Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-2cffb2c5-2608-433b-81ee-28c9600afcae",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:30:13.225Z",
+      "completedAt": "2026-09-03T15:30:13.225Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-814c5935-8b8c-4f72-93e8-3b41f285f9fe",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:18.058Z",
+      "completedAt": "2026-09-03T14:21:18.058Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-6052efa8-93f1-4c95-a305-387c73ab40b6",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:15:08.881Z",
+      "completedAt": "2026-09-03T15:16:13.577Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-3d381b43-9db5-4726-b714-d9b8b5bd988d",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:27.739Z",
+      "completedAt": "2026-09-03T15:16:27.739Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-7ff3c0e9-2e10-41c8-9937-1da6d7dc5b89",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:50.681Z",
+      "completedAt": "2026-09-03T14:36:50.681Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-93b5d748-4af2-48ed-8c59-bdcac1a09d6b",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:57.764Z",
+      "completedAt": "2026-09-03T15:12:57.764Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-fd4a34e9-84d0-4583-bea4-485787ab056e",
+      "status": "clear",
+      "createdAt": "2026-09-05T22:15:14.226Z",
+      "completedAt": "2026-09-05T22:15:14.226Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-ec5ce5a0-1c34-47f0-a45a-9aa4948bf254",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:47:23.177Z",
+      "completedAt": "2026-09-03T14:47:23.177Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-0dd4f6bd-b332-4fc6-83cc-dd1ab1da42e0",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:09:22.176Z",
+      "completedAt": "2026-09-03T15:09:22.176Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-d8f37d13-9032-4161-9dfb-41b0c98c1701",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:52.705Z",
+      "completedAt": "2026-09-03T15:20:52.705Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-375eb35b-1bae-4c7b-92c7-fb4e0613283f",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:25:18.359Z",
+      "completedAt": "2026-09-03T15:25:18.359Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-c55dc169-52ae-4f4f-88ce-d5b80e3a41e0",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:24.891Z",
+      "completedAt": "2026-09-03T14:41:24.891Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-ccd691e6-6171-41f9-9473-f551b4611b1f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:15:33.053Z",
+      "completedAt": "2026-09-03T14:15:33.053Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-0d4ce11a-9a87-4ecd-9d19-f5b3f2dab973",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:37.419Z",
+      "completedAt": "2026-09-03T14:56:37.419Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-ae7d43be-a20b-453f-aed0-795b17ca3262",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:31.098Z",
+      "completedAt": "2026-09-03T15:17:31.689Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-dbf5154e-074c-4292-be4a-743cae747aa4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:59.705Z",
+      "completedAt": "2026-09-03T14:43:18.707Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b1dfb145-2c7a-4782-aab2-5ddd5f5d4061",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:15:14.743Z",
+      "completedAt": "2026-09-03T14:15:14.743Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-c445073e-c627-4365-bbde-858256a9e0ec",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:42.648Z",
+      "completedAt": "2026-09-03T14:33:42.648Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-ffece676-628d-4fd5-abd8-1942edf80435",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:26.900Z",
+      "completedAt": "2026-09-03T14:58:05.507Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-a793c7b9-8cb8-4054-beb2-2340cda69bc0",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:47:41.803Z",
+      "completedAt": "2026-09-03T14:47:46.338Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-20df41c2-91c7-446c-9b23-0045f02d9041",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:17:52.097Z",
+      "completedAt": "2026-09-03T15:18:04.542Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-9b92636c-dd04-4e38-bd70-4187dcf9e2b3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:14.683Z",
+      "completedAt": "2026-09-03T14:21:14.683Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-0a9adddd-a5f0-4d56-a13f-f388dcb9f652",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:06:00.799Z",
+      "completedAt": "2026-09-03T15:08:57.772Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b54322fa-a656-4356-9a8d-0803f31b7a23",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:03.966Z",
+      "completedAt": "2026-09-03T14:43:10.215Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-16f34288-2e85-4ab5-a2b2-73f2fa62fb30",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:16.032Z",
+      "completedAt": "2026-09-03T14:33:52.999Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-df2745ba-b113-41ac-8e26-9d4251920a09",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:49.322Z",
+      "completedAt": "2026-09-03T15:20:52.077Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-438a5827-d335-4fd0-b239-55eaa2f5b485",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:27:58.081Z",
+      "completedAt": "2026-09-03T14:27:59.380Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-164fa09f-01d1-4945-9285-75f9ea8d8e5f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:31.879Z",
+      "completedAt": "2026-09-03T14:42:33.345Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-328f8373-9777-4aeb-9f4a-767c39c69841",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:58.764Z",
+      "completedAt": "2026-09-03T15:00:58.764Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-577220c2-2f72-4aa3-a0ad-d64230f561dc",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:02:47.393Z",
+      "completedAt": "2026-09-03T15:02:47.393Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-fde45603-3d10-46a9-93dd-95ffe60b21bd",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:34:15.708Z",
+      "completedAt": "2026-09-03T14:34:15.708Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8dc16a82-89bd-4ba2-83de-75ec5e0917b4",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:14:51.215Z",
+      "completedAt": "2026-09-03T15:15:09.584Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-036a3894-1a0f-44f9-9758-9f7aa0fd3116",
+      "status": "pending",
+      "createdAt": "2026-09-03T14:26:41.258Z",
+      "completedAt": null,
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-2a9723a8-3a56-479f-b32a-9f556dff30cc",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:25.553Z",
+      "completedAt": "2026-09-03T14:56:26.947Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-4feb759a-6ebc-424f-8efd-593a8026cd49",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:25:15.256Z",
+      "completedAt": "2026-09-03T14:25:17.539Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b4dbbad9-4593-495e-b325-d98be632a92c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:29:56.513Z",
+      "completedAt": "2026-09-03T14:29:56.513Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-d55319fd-c5e1-49e9-83dd-214b1e370747",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:58:05.239Z",
+      "completedAt": "2026-09-03T14:58:06.667Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-a39653f6-4c45-47c4-81e3-20603c341c45",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:03:02.795Z",
+      "completedAt": "2026-09-03T15:03:04.314Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-0c1ed63a-5657-4866-b911-74a130934169",
+      "status": "clear",
+      "createdAt": "2026-09-02T17:22:07.707Z",
+      "completedAt": "2026-09-02T17:22:14.509Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f95a6b81-cb36-4106-8856-b1aca6335f17",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:52:44.989Z",
+      "completedAt": "2026-09-03T14:52:44.989Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-73288e11-3f8f-4402-936f-8eaf7728f6df",
+      "status": "clear",
+      "createdAt": "2026-09-03T12:40:35.208Z",
+      "completedAt": "2026-09-03T12:40:35.208Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-91f43a53-faa1-40b7-a375-2e8754d67bf7",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:18.148Z",
+      "completedAt": "2026-09-03T15:12:32.548Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-3d16c282-cfde-462d-a4f2-59a9652e1dd0",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:29.340Z",
+      "completedAt": "2026-09-03T15:24:59.954Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b4c1c153-3b28-4be3-a387-4e998efce0f2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:51:56.215Z",
+      "completedAt": "2026-09-03T14:51:56.215Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-39dc45e2-868b-44c5-a935-15e396b53009",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:50.546Z",
+      "completedAt": "2026-09-03T15:12:50.546Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-57a85aa0-7ba6-47de-b1c2-6f0d01906c0b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:28:11.420Z",
+      "completedAt": "2026-09-03T14:28:44.040Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b788b73b-ca01-4dae-8e9b-ae4558a4d5b1",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:19.239Z",
+      "completedAt": "2026-09-03T15:00:19.239Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-92b3daf9-79ce-4833-82ce-f4877aab5f48",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:25:57.506Z",
+      "completedAt": "2026-09-03T15:25:57.506Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-c9cc9e4b-8eec-4289-9865-e50732707021",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:54.397Z",
+      "completedAt": "2026-09-03T15:21:54.397Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-70fd41a9-247c-4b0b-a036-3f074609c189",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:44:20.608Z",
+      "completedAt": "2026-09-03T14:44:20.608Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-da063a35-d8d8-4b9e-a12b-8f7c032fe8b2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:35:41.208Z",
+      "completedAt": "2026-09-03T14:35:41.208Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-363fef9c-8dc6-46ae-a82d-2e8c675d1519",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:54:16.013Z",
+      "completedAt": "2026-09-03T14:54:18.614Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-e0a4a0d6-4893-4bed-9dc7-05b4e879f0dc",
+      "status": "flagged",
+      "createdAt": "2026-03-29T06:46:01.982Z",
+      "completedAt": "2026-03-29T06:46:01.982Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-40742044-b456-4cc1-b716-f2e8d96d3070",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:52.784Z",
+      "completedAt": "2026-09-03T14:41:54.205Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-a4701273-cff8-4e0e-b055-cd96a5f12846",
+      "status": "clear",
+      "createdAt": "2026-09-05T22:16:55.624Z",
+      "completedAt": "2026-09-05T22:16:55.624Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-077bde5a-1b0f-43e3-8cf0-300f389a5211",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:48.952Z",
+      "completedAt": "2026-09-03T15:18:04.808Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-af0972ce-733c-4870-a50e-45887d4f0f77",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:13.349Z",
+      "completedAt": "2026-09-03T14:41:13.349Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-e2cdd784-55ff-42ff-9661-6aaec1247052",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:18:25.840Z",
+      "completedAt": "2026-09-03T14:18:25.840Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-3ea5404c-b862-420c-b1b1-06a5f00d82d8",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:01.090Z",
+      "completedAt": "2026-09-03T15:22:01.090Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f1ccd62c-0890-452b-87bb-9d70ebbe045e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:46:27.487Z",
+      "completedAt": "2026-09-03T14:47:50.075Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-855f487c-b378-4c19-9bf0-1c02785ca6c4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:44.413Z",
+      "completedAt": "2026-09-03T14:36:44.413Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-2139f558-7a64-48c0-9e6c-58a8db5286a1",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:15.798Z",
+      "completedAt": "2026-09-03T15:00:31.779Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-64529a92-7b95-4773-9c0c-abf4c9e5a378",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:17:23.705Z",
+      "completedAt": "2026-09-03T14:17:23.705Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f77cbd25-ed3c-45f1-a2e3-9b360b8d3544",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:07.441Z",
+      "completedAt": "2026-09-03T14:38:07.441Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-df0f6dd2-877c-480f-a139-2a9a21222f22",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:08:50.816Z",
+      "completedAt": "2026-09-03T15:08:50.816Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f99791cb-1ecd-4b6f-9e4b-e7dc7ba681d0",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:19:14.821Z",
+      "completedAt": "2026-09-03T15:20:15.689Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-4a39925f-70db-4cbd-aa0e-d04bd0316289",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:01:14.437Z",
+      "completedAt": "2026-09-03T15:03:02.681Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-a7b45cdc-5a95-4642-8e9b-977954782f5e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:49.082Z",
+      "completedAt": "2026-09-03T14:14:10.743Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-57e31225-8259-454b-b48c-8a4a4dd99535",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:18:23.744Z",
+      "completedAt": "2026-09-03T15:18:23.744Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-e6cd1772-0ff5-44b4-883e-7c95e3027390",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:59:00.039Z",
+      "completedAt": "2026-09-03T14:59:35.725Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-efa8ba14-e3c7-4a6a-8163-ca33b4ae4226",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:27.074Z",
+      "completedAt": "2026-09-03T15:24:27.074Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-aafc5aee-ecba-472d-b222-548531e1860a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:30:09.243Z",
+      "completedAt": "2026-09-03T14:30:10.740Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-39fd1f15-23e7-4bbf-b83a-38765adfa4dd",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:13.813Z",
+      "completedAt": "2026-09-03T14:33:13.813Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-4970112b-5054-4f50-9400-d6c9ab190575",
+      "status": "clear",
+      "createdAt": "2026-09-07T01:55:59.050Z",
+      "completedAt": "2026-09-07T01:56:05.373Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-6a8fd675-6a3b-4d47-8c16-1f1bd63faa5d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:18:55.229Z",
+      "completedAt": "2026-09-03T14:18:55.229Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8aa96ec2-0362-4a74-aa82-a4041d423bf0",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:07:19.511Z",
+      "completedAt": "2026-09-03T15:07:19.511Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-51b98f16-31de-4294-bcdd-550497cca64c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:54.228Z",
+      "completedAt": "2026-09-03T14:33:54.228Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-e9c4773c-c09d-4fee-8ce4-33f106eb2796",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:19.315Z",
+      "completedAt": "2026-09-03T14:33:28.949Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-30cbdb25-8c7e-43a9-8128-ff0af64861c4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:32.358Z",
+      "completedAt": "2026-09-03T14:56:32.358Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-41bbea36-efcb-4e76-994a-eed5715792f1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:19:55.832Z",
+      "completedAt": "2026-09-03T14:19:57.023Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-fbba24bd-c2ee-471c-aaa2-5c988bb0413a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:26:35.702Z",
+      "completedAt": "2026-09-03T15:27:09.459Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-661fa24e-6da7-41c8-b6d6-d4f2f9662d10",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:17.204Z",
+      "completedAt": "2026-09-03T14:57:17.204Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8012c60e-8d57-4d59-9c5b-e73f73cee70c",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:06:19.373Z",
+      "completedAt": "2026-09-03T15:06:19.373Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-a9344698-d450-4968-af09-f8f77062a01f",
+      "status": "clear",
+      "createdAt": "2026-09-03T02:58:54.601Z",
+      "completedAt": "2026-09-03T02:58:54.601Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8265feba-5330-4add-8429-dc0c16355430",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:08:30.548Z",
+      "completedAt": "2026-09-03T15:08:30.548Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-1d6c4d7c-e482-48d6-931b-569beeb9c688",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:57.363Z",
+      "completedAt": "2026-09-03T14:37:57.363Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-077856d8-941e-409f-8e2a-b28514c9a79c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:52:09.435Z",
+      "completedAt": "2026-09-03T14:52:53.422Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8a7bab6b-3a54-4ff0-8943-c384bc9e808b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:30.152Z",
+      "completedAt": "2026-09-03T14:12:30.152Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-07cf6f2b-cb90-4758-9812-447cd72d421b",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:15:38.002Z",
+      "completedAt": "2026-09-03T15:16:14.822Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-627e0d77-03e1-4988-b82a-a0030b4a7ada",
+      "status": "clear",
+      "createdAt": "2026-09-03T12:41:42.972Z",
+      "completedAt": "2026-09-03T12:41:42.972Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-0b07cd6a-7262-4a17-8efe-eece6f97e58f",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:35.641Z",
+      "completedAt": "2026-09-03T15:13:35.641Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-04189add-f7a4-4fd7-8e88-d421728c4ef3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:44.482Z",
+      "completedAt": "2026-09-03T14:21:44.482Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-3368bb61-1f45-4f96-a20e-f0bb9694d0bb",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:21.288Z",
+      "completedAt": "2026-09-03T14:37:21.288Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-d70ba673-0cd2-4835-8d75-3a5acd74cc3f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:23:29.567Z",
+      "completedAt": "2026-09-03T14:24:41.457Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-eec17473-2803-4a27-b5a1-d3d99d391ef1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:45:14.523Z",
+      "completedAt": "2026-09-03T14:45:14.523Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b9488d38-dcb5-4e1e-8c89-ae978cfdece2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:12.542Z",
+      "completedAt": "2026-09-03T14:37:12.542Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-15eb13a9-2c28-4fd3-9019-7bf09ed62005",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:02:11.412Z",
+      "completedAt": "2026-09-03T15:02:11.412Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-044fc72a-d918-4190-a3cd-448bb575bc95",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:24:21.185Z",
+      "completedAt": "2026-09-03T14:24:21.185Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8e96fef9-4fa3-4814-80af-942649c4bee1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:26:43.580Z",
+      "completedAt": "2026-09-03T14:26:46.039Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-d98f8283-bcba-4feb-8183-01ed505aa4b8",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:28.439Z",
+      "completedAt": "2026-09-03T15:22:00.776Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-917f5788-729b-4932-b197-de3f9ff49346",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:42.117Z",
+      "completedAt": "2026-09-03T14:36:42.117Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-7aaad75e-5c13-4ec3-9f43-948b20254b94",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:22:21.418Z",
+      "completedAt": "2026-09-03T14:22:21.418Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-d52ca88e-585c-4726-9276-c2745d4b9d54",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:03.108Z",
+      "completedAt": "2026-09-03T14:38:03.108Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-672e6e66-95a6-467c-935f-b199d51fa874",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:17:27.700Z",
+      "completedAt": "2026-09-03T14:18:08.071Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-4faa6c70-aaf1-4af9-a1ee-978bee2f01d0",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:41.587Z",
+      "completedAt": "2026-09-03T15:25:04.375Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f7dc3bdd-8472-4f39-bb8c-fa7f2efa61e6",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:46:54.919Z",
+      "completedAt": "2026-09-03T14:47:09.365Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-ec71ee44-7d39-43f4-86f9-f374a5bfc017",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:50.422Z",
+      "completedAt": "2026-09-03T14:38:52.699Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8e9b79bf-fd75-4148-8988-8cbdb8afea12",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:45.181Z",
+      "completedAt": "2026-09-03T15:13:45.181Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b8157f3d-1181-47f9-a9b9-6f568245e10a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:53:07.773Z",
+      "completedAt": "2026-09-03T14:53:09.294Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-91825da5-d9ad-4933-b50f-31d22c884946",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:21.511Z",
+      "completedAt": "2026-09-03T15:12:21.511Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-40586519-b4bf-4af8-a600-0ff5364a7ffb",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:40.284Z",
+      "completedAt": "2026-09-03T15:05:40.284Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-410d3068-8cef-4b56-ad49-17cc9b829a81",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:34:54.843Z",
+      "completedAt": "2026-09-03T14:35:23.839Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-557dce69-a4d6-46a6-9240-aa1b9c6ff781",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:19:17.315Z",
+      "completedAt": "2026-09-03T14:20:09.984Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b1d45e2e-d7f6-40a5-ab08-1354ee9cde18",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:53:26.147Z",
+      "completedAt": "2026-09-03T14:53:26.147Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-d810a96e-d2cf-4b26-b70a-27dd609c282d",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:23:08.758Z",
+      "completedAt": "2026-09-03T15:23:21.154Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-69e76b9c-5e7a-4d16-a3f9-2dde7789941e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:27:53.199Z",
+      "completedAt": "2026-09-03T14:27:53.199Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f80cdf4a-3219-486d-90df-a0c6327ca5eb",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:10.291Z",
+      "completedAt": "2026-09-03T15:22:57.165Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b601728e-2264-4cf4-b618-d99e195330e1",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:52.142Z",
+      "completedAt": "2026-09-03T15:22:52.142Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-4f36b1df-47ae-42ae-90f3-74b189c64e46",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:28:55.540Z",
+      "completedAt": "2026-09-03T14:28:55.540Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-f5801f5c-7402-4a87-ac19-4fbb92ece65a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:40.442Z",
+      "completedAt": "2026-09-03T14:12:40.442Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-974a10eb-463e-4b33-81ae-f867cb109e67",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:40:06.864Z",
+      "completedAt": "2026-09-03T14:40:06.864Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-b9325f8a-136a-450d-bf3e-780c2efd8ff8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:33.586Z",
+      "completedAt": "2026-09-03T14:12:33.586Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-dd3c1fc5-a933-4786-833f-dfe08269f744",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:08.221Z",
+      "completedAt": "2026-09-03T14:14:36.931Z",
+      "employeeId": "EMP-003"
+    },
+    {
+      "checkId": "CHK-8480d3f2-0ffe-489e-b30e-427194fc7f47",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:15:15.896Z",
+      "completedAt": "2026-09-03T14:15:32.375Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-7d06c6f8-1701-44c6-af98-05b86a1618ae",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:53:27.241Z",
+      "completedAt": "2026-09-03T14:53:27.241Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-7d6425ff-8ae4-4a92-a4d3-0e6368851d58",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:53.251Z",
+      "completedAt": "2026-09-03T15:23:07.913Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-6925d777-be88-4033-9c11-d195a4f36e21",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:18:56.346Z",
+      "completedAt": "2026-09-03T14:21:14.423Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-8b19646c-bd00-42a4-8e70-4a495191f1a2",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:18:04.675Z",
+      "completedAt": "2026-09-03T15:18:40.190Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-f947358b-96f2-4fdb-bc8c-6ff4a1bf61ed",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:06:20.470Z",
+      "completedAt": "2026-09-03T15:07:37.417Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-ff06fe46-daa6-424e-8d80-20c93f82ff6e",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:15:09.713Z",
+      "completedAt": "2026-09-03T15:15:09.713Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-9809a973-6de6-450c-82b7-d1ad75c02044",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:28:56.639Z",
+      "completedAt": "2026-09-03T14:28:56.639Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-1867e738-1ebf-477b-937d-657ed51c312c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:35:42.322Z",
+      "completedAt": "2026-09-03T14:35:42.322Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-58219e9d-f8fa-43ec-a33f-c3b79e2edcbf",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:50.136Z",
+      "completedAt": "2026-09-03T14:13:50.136Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-d55f464a-9699-4d68-8e26-b46990b75486",
+      "status": "clear",
+      "createdAt": "2026-09-03T12:41:52.517Z",
+      "completedAt": "2026-09-03T12:41:56.241Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-267c27c5-a5ec-48f6-bac9-e65415f89b10",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:55.497Z",
+      "completedAt": "2026-09-03T15:21:55.497Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-afbecddd-b1d0-4b7a-9766-a7cbd7834219",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:58.856Z",
+      "completedAt": "2026-09-03T15:12:58.856Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-c426d337-1d50-47e7-bf7f-966e0d38fa5b",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:09:23.294Z",
+      "completedAt": "2026-09-03T15:09:23.294Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-d0514b38-f3be-4b59-89a5-3d9fc5141656",
+      "status": "clear",
+      "createdAt": "2026-09-07T10:07:49.092Z",
+      "completedAt": "2026-09-07T10:07:49.092Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-d967f62b-749d-4379-8ab9-e2753a62734b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:33.624Z",
+      "completedAt": "2026-09-03T14:13:42.870Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-6b9b1e12-9a65-4152-ac65-83165b681822",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:05.451Z",
+      "completedAt": "2026-09-03T15:20:05.451Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-6be302c9-466f-4749-b3e4-71ccb8054d1a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:17:28.092Z",
+      "completedAt": "2026-09-03T14:17:28.092Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-c34bf775-f215-4429-a8ac-8a63217ff63d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:13.818Z",
+      "completedAt": "2026-09-03T14:33:13.818Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-4fb99e65-58d1-4acf-8d12-decb22465674",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:53.065Z",
+      "completedAt": "2026-09-03T15:24:53.065Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-08eb6728-a113-4291-b77a-9d3c0d33705a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:51.767Z",
+      "completedAt": "2026-09-03T14:36:51.767Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-50a6197e-e9ce-41b7-9918-4b62cc2d703b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:21.516Z",
+      "completedAt": "2026-09-03T14:37:21.516Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-4f39f40d-62fa-47da-abb3-5405778b6acb",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:45:15.611Z",
+      "completedAt": "2026-09-03T14:45:20.219Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-d92b2d90-0d9b-4777-9833-e182209e4da3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:45.545Z",
+      "completedAt": "2026-09-03T14:36:45.545Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-c7b68c6e-9e22-43f4-a2ab-573527c6643f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:27:53.200Z",
+      "completedAt": "2026-09-03T14:27:56.000Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-764d7e81-90b1-42f7-8b6e-d7a504732848",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:20.111Z",
+      "completedAt": "2026-09-03T14:33:20.111Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-7c7f9d86-eae3-442d-acc9-ffd474444127",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:25.988Z",
+      "completedAt": "2026-09-03T14:41:48.195Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-eb3957c3-2288-4807-97f5-927bff14bcec",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:20.360Z",
+      "completedAt": "2026-09-03T15:00:20.360Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-175ba8af-bcfd-454d-9c31-c8d86ffa3800",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:18:24.826Z",
+      "completedAt": "2026-09-03T15:18:24.826Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-065bf49e-18a5-442f-941f-4f3f6836f924",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:40.292Z",
+      "completedAt": "2026-09-03T15:05:41.560Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-f70e40b8-df34-4361-81fe-a5d5d2cfeef6",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:30:14.349Z",
+      "completedAt": "2026-09-03T15:30:14.349Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-2a6b12a2-f99e-4fcd-89c7-0f306746334b",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:25:58.652Z",
+      "completedAt": "2026-09-03T15:25:58.652Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-72bc00c9-602f-4678-8833-d38ab6e9c2f3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:46:43.215Z",
+      "completedAt": "2026-09-03T14:46:43.215Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-183b2c6b-444c-4b9f-9e87-2066f75c6be7",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:03.527Z",
+      "completedAt": "2026-09-03T14:38:03.527Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-151a31f6-70f0-4224-874b-8bc59280a205",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:32.554Z",
+      "completedAt": "2026-09-03T14:56:34.058Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-480f02c2-74c9-49f1-b1ba-f3367af08909",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:44:21.485Z",
+      "completedAt": "2026-09-03T14:44:21.485Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-3495df65-35a5-4325-8aab-a964b463a9c1",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:26:50.856Z",
+      "completedAt": "2026-09-03T15:26:50.856Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-e316968f-bf3f-4982-9742-0faf0515157d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:23:59.547Z",
+      "completedAt": "2026-09-03T14:23:59.547Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-40ebf4ea-90d1-4270-affb-f343a04102e2",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:15.811Z",
+      "completedAt": "2026-09-03T15:00:15.811Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-497deadc-48dc-49db-a607-eb97242a15a8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:58:06.603Z",
+      "completedAt": "2026-09-03T14:59:08.720Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-b020e7f2-76ef-4f0b-b41c-13ea6da9fc7e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:55.308Z",
+      "completedAt": "2026-09-03T14:33:55.308Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-2e35315b-1d07-42d7-8013-fcd202ad50ce",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:14.431Z",
+      "completedAt": "2026-09-03T14:41:17.047Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-5cb0cc7a-08bc-4af5-869c-544bc19029f4",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:43.716Z",
+      "completedAt": "2026-09-03T15:05:56.256Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-720cbce6-b348-4264-a36a-01def00f8ddf",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:02:48.481Z",
+      "completedAt": "2026-09-03T15:03:00.994Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-3088614e-4ff5-4653-90bf-ab8d00274d83",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:52.798Z",
+      "completedAt": "2026-09-03T14:38:57.719Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-7f871215-17f8-4964-b390-89a35f481fcb",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:15.778Z",
+      "completedAt": "2026-09-03T14:21:15.778Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-870dd078-5ff0-42cc-a548-925d8723d9e8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:25:17.664Z",
+      "completedAt": "2026-09-03T14:25:17.664Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-b5a0c98a-6462-4d4a-84c2-a91b921547d0",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:16.044Z",
+      "completedAt": "2026-09-03T14:33:16.044Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-cdb02145-a1a9-4462-8bda-c2ef661a45bf",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:17:16.495Z",
+      "completedAt": "2026-09-03T15:17:43.175Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-374a8f2b-e976-4725-9d6b-32f74d8792da",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:22.586Z",
+      "completedAt": "2026-09-03T15:12:32.108Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-40346884-8d66-4bf8-b478-f9edff6f3533",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:34.021Z",
+      "completedAt": "2026-09-03T15:21:38.813Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-727f7cf1-8ab8-40b0-a40b-ff993c41361b",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:31.465Z",
+      "completedAt": "2026-09-03T15:16:50.906Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-26f88c1b-f092-413d-a186-31267408bff8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:20.771Z",
+      "completedAt": "2026-09-03T14:42:20.771Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-a1c0e5f4-ade9-4d1b-b291-f619165b0b23",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:15:33.623Z",
+      "completedAt": "2026-09-03T14:15:33.623Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-d00bc0d3-d85a-4052-8012-f24580d7bf88",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:57.844Z",
+      "completedAt": "2026-09-03T14:37:59.481Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-35a8fbfd-54d5-4ab2-9042-f8ae368299c1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:18.307Z",
+      "completedAt": "2026-09-03T14:57:18.307Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-75f2de16-572b-4f72-a853-f9b278ed9c16",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:34:16.844Z",
+      "completedAt": "2026-09-03T14:34:16.844Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-8d1a9303-4e1a-4b95-aa55-839e46617807",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:43.726Z",
+      "completedAt": "2026-09-03T14:33:43.726Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-f691c017-0353-438a-b4cc-57ca4100ebe4",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:03:04.441Z",
+      "completedAt": "2026-09-03T15:03:12.214Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-2ba6507d-0588-4ad6-a641-d9ffa54ba9d6",
+      "status": "clear",
+      "createdAt": "2026-09-03T02:59:24.890Z",
+      "completedAt": "2026-09-03T02:59:24.890Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-0626671e-a941-40e3-a93e-f68559649d50",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:00.361Z",
+      "completedAt": "2026-09-03T15:16:09.291Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-56740a5e-080c-4689-bf2a-e6bfa57dddd9",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:17:35.169Z",
+      "completedAt": "2026-09-03T15:17:35.169Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-09518586-0bd3-4d4c-899c-cd24065c02ac",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:26:41.301Z",
+      "completedAt": "2026-09-03T14:26:41.301Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-884d8450-1a7e-4e97-9cc4-5c5b6d457427",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:59.851Z",
+      "completedAt": "2026-09-03T15:01:02.222Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-f55c5901-8a0d-4e47-ad6a-f8660d29dbbd",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:19:33.709Z",
+      "completedAt": "2026-09-03T14:19:33.709Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-06d232d6-8246-4e72-bd7a-581a086cf08a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:44:16.691Z",
+      "completedAt": "2026-09-03T14:44:16.691Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-8a3bd260-690d-4dfc-83ca-0f7e770c0b63",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:45.496Z",
+      "completedAt": "2026-09-03T15:13:58.151Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-57f05a98-4305-4653-a447-bcd1c5671f66",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:17:23.743Z",
+      "completedAt": "2026-09-03T14:17:23.743Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-2d99affc-d31d-4012-840a-6321e7a8bef8",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:06:01.364Z",
+      "completedAt": "2026-09-03T15:06:01.364Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-b7100b13-80a4-494a-8654-05d009aa8f26",
+      "status": "clear",
+      "createdAt": "2026-09-03T12:40:35.910Z",
+      "completedAt": "2026-09-03T12:40:35.910Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-12022f07-a37a-4e61-a7ad-1d2ac676f4b5",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:24:22.292Z",
+      "completedAt": "2026-09-03T14:24:22.292Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-89a6dfe0-f495-46cb-8738-c205ec3a29a8",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:15.816Z",
+      "completedAt": "2026-09-03T15:22:15.816Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-efeff934-36bf-4271-94a2-dbdf40db685d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:27:58.321Z",
+      "completedAt": "2026-09-03T14:27:58.321Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-a9e287f6-3555-4fad-9c25-f2786a069976",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:59:03.361Z",
+      "completedAt": "2026-09-03T14:59:03.361Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-cf73ce4f-1a17-4a08-98c1-76a702cbffd3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:35:29.004Z",
+      "completedAt": "2026-09-03T14:35:29.004Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-56b9b2eb-b49a-4967-8f09-a158e5219374",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:51.575Z",
+      "completedAt": "2026-09-03T15:12:51.575Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-78d6d8bc-a37a-4a6f-9031-24d1aaa086ed",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:01:20.534Z",
+      "completedAt": "2026-09-03T15:02:22.260Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-6fca48bc-a169-4f3e-bfb7-c6e9e17efecb",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:02:11.674Z",
+      "completedAt": "2026-09-03T15:04:21.452Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-3bbb53fa-ca22-4f8c-adea-7dbdbebd606b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:26.235Z",
+      "completedAt": "2026-09-03T14:56:26.235Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-87ae161b-9fb2-4626-8b3b-e4407210c5d1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:30:10.934Z",
+      "completedAt": "2026-09-03T14:30:10.934Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-0ad832fb-5981-42f2-a912-371562669005",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:29:57.602Z",
+      "completedAt": "2026-09-03T14:29:57.602Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-a6574efd-496c-4941-8cc1-855347cdeeee",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:19:57.115Z",
+      "completedAt": "2026-09-03T14:19:57.115Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-caf81ff8-7cd4-4291-8cbb-ec5be5149b28",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:53:09.439Z",
+      "completedAt": "2026-09-03T14:53:09.439Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-e507de01-4b4f-4723-a7c3-6a862bd1b57c",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:07:20.605Z",
+      "completedAt": "2026-09-03T15:07:53.078Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-eb161c5f-73e7-4010-bf53-9e6de10f90a1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:30.350Z",
+      "completedAt": "2026-09-03T14:12:30.350Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-c86b52db-ed6f-44c6-ab4e-b819b77fc7a0",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:42.144Z",
+      "completedAt": "2026-09-03T14:36:42.144Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-ad348fc1-3d66-41de-9530-34f38d480df2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:23.914Z",
+      "completedAt": "2026-09-03T14:56:25.468Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-6bb8cc7b-275c-400f-80f7-f9ebfe1863b8",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:36.760Z",
+      "completedAt": "2026-09-03T15:13:38.371Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-32b8f6fb-7e06-4165-8dbb-663535e95d2a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:26:46.170Z",
+      "completedAt": "2026-09-03T14:26:46.170Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-116c4b91-4d17-4ebd-adbf-f93eaf8abba7",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:13.628Z",
+      "completedAt": "2026-09-03T14:37:13.628Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-e65a73a3-670b-4b7c-a4dc-933b428a294c",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:53.655Z",
+      "completedAt": "2026-09-03T15:21:24.984Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-f9b9e3af-1093-4a13-968d-fd17b18b76ff",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:07.501Z",
+      "completedAt": "2026-09-03T14:38:45.150Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-28520df3-4697-42bf-aeb5-e954b6b835f8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:38.484Z",
+      "completedAt": "2026-09-03T14:56:40.958Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-6604f65f-c859-447a-8bca-10da1c680439",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:15.314Z",
+      "completedAt": "2026-09-03T14:13:15.314Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-44cfb3ba-2ade-44cd-a93d-840533e11721",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:27.738Z",
+      "completedAt": "2026-09-03T15:16:27.738Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-dbe59d15-0ea5-4137-b759-bf01425dc355",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:23:09.196Z",
+      "completedAt": "2026-09-03T15:23:09.196Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-d47b07ac-1887-448d-a30b-6425095a6044",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:41.570Z",
+      "completedAt": "2026-09-03T14:13:13.540Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-86c24fc2-547d-4638-ae30-7682ad4944e1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:19.099Z",
+      "completedAt": "2026-09-03T14:21:19.099Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-c76df77a-15f5-4f4e-9e65-167f40ea2098",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:22:22.526Z",
+      "completedAt": "2026-09-03T14:22:51.495Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-b2760267-d729-465b-90ea-b969cde4ee70",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:25:19.459Z",
+      "completedAt": "2026-09-03T15:25:38.429Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-bec543cb-c6a6-4331-93c2-a93db032400a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:08:51.907Z",
+      "completedAt": "2026-09-03T15:08:51.907Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-4c58b439-1a42-41a8-a2d6-881715035d02",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:45.995Z",
+      "completedAt": "2026-09-03T14:57:45.995Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-143d13c1-208b-460d-a949-ec003355e29f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:52:46.103Z",
+      "completedAt": "2026-09-03T14:52:58.823Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-8c7ca990-7380-4bfc-8c13-0a84b7e6635a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:45.582Z",
+      "completedAt": "2026-09-03T14:21:53.313Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-9029c6f1-8c3f-4941-949d-a0a5c6c67b6c",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:49.337Z",
+      "completedAt": "2026-09-03T15:20:49.337Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-7f80f00a-7d93-474f-a7a7-81f4c78e378f",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:08:31.639Z",
+      "completedAt": "2026-09-03T15:08:50.698Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-75757254-8413-48bd-bf15-58feddd189d3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:28:44.164Z",
+      "completedAt": "2026-09-03T14:28:45.760Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-2c86dd80-594a-4023-8e48-66066fc09faf",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:32.014Z",
+      "completedAt": "2026-09-03T14:42:32.014Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-33d87e50-0154-43dd-a49f-0fa395a8e47c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:18:26.931Z",
+      "completedAt": "2026-09-03T14:18:54.032Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-18627e75-5823-45d1-95c3-fb35b52da04c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:47:24.286Z",
+      "completedAt": "2026-09-03T14:47:24.286Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-25b72d7f-c64b-4b2b-958a-8777ad442437",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:14:56.055Z",
+      "completedAt": "2026-09-03T15:14:57.658Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-eb81be4d-d78b-4c4c-9d70-582ef27a52c9",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:40:06.897Z",
+      "completedAt": "2026-09-03T14:40:06.897Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-f3b2be5b-952d-44fa-aa21-db86fe2d4877",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:27.124Z",
+      "completedAt": "2026-09-03T15:24:27.124Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-718e6d8a-d30f-43c7-8b99-622335ada6d0",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:54.291Z",
+      "completedAt": "2026-09-03T14:41:55.408Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-a67ab76e-03be-4d54-9d78-1c5bb88e51f4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:52:14.669Z",
+      "completedAt": "2026-09-03T14:53:04.778Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-40293215-e78d-4a05-b5d0-ec92aa9eda64",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:47:09.476Z",
+      "completedAt": "2026-09-03T14:47:09.476Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-055aaeb5-5dc6-4f44-a02d-67bbaaf3d589",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:50:20.366Z",
+      "completedAt": "2026-09-03T14:50:20.366Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-3fa2df94-8530-417d-ba9c-80108cd5ed26",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:18.107Z",
+      "completedAt": "2026-09-03T15:12:18.107Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-b808722d-02e6-4120-a928-76f4506716e3",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:02.011Z",
+      "completedAt": "2026-09-03T15:22:02.011Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-928eeda7-a6ef-4e9e-aee8-7358203f1dba",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:51:56.199Z",
+      "completedAt": "2026-09-03T14:52:40.335Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-94d89ca9-5a5b-4e6a-b81f-a920f771db39",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:30.438Z",
+      "completedAt": "2026-09-03T15:24:30.438Z",
+      "employeeId": "EMP-004"
+    },
+    {
+      "checkId": "CHK-16d56629-7277-4d6b-8c8c-a19bd687330d",
+      "status": "flagged",
+      "createdAt": "2026-09-03T12:40:31.721Z",
+      "completedAt": "2026-09-03T12:40:31.721Z",
+      "employeeId": "EMP-007"
+    },
+    {
+      "checkId": "CHK-ff18d7b2-dce4-410a-a94e-d7a790a76bd3",
+      "status": "pending",
+      "createdAt": "2026-09-03T12:40:32.635Z",
+      "completedAt": null,
+      "employeeId": "EMP-007"
+    },
+    {
+      "checkId": "CHK-63fab86a-dfd6-4068-a073-620c0502bd2a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:44:26.843Z",
+      "completedAt": "2026-09-03T14:44:26.843Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-553392c0-d3ea-46fc-9bc0-21db36576e7e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:29:41.410Z",
+      "completedAt": "2026-09-03T14:29:42.824Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-97ca64a2-9a48-45ed-bead-8ad9ef898d1a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:36.179Z",
+      "completedAt": "2026-09-03T15:17:28.218Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-237d7a7d-94c4-4576-a58e-b8f293253f30",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:47:30.363Z",
+      "completedAt": "2026-09-03T14:47:30.363Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-37187523-2464-4d6d-bd95-ebb6a03f540b",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:20.408Z",
+      "completedAt": "2026-09-03T15:12:39.841Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-e92ca38e-1341-415f-b1f3-df47e549b395",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:15:24.029Z",
+      "completedAt": "2026-09-03T15:15:26.407Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-15764989-dfd0-48a8-a2b6-9d2d08f9e8d9",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:26:20.791Z",
+      "completedAt": "2026-09-03T15:26:20.791Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-1a4ed153-4c7c-45a6-9549-5ca26c567d5f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:26:42.439Z",
+      "completedAt": "2026-09-03T14:26:42.439Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-ba1625f9-a38c-4c68-b5a1-fe0a06085ca8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:52:41.669Z",
+      "completedAt": "2026-09-03T14:52:41.669Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-79962d96-dd7f-470a-bc42-ce8137c6b4ad",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:09:29.567Z",
+      "completedAt": "2026-09-03T15:10:07.757Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-dcc41986-9f4e-4f20-950f-72a4756f4176",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:08:47.547Z",
+      "completedAt": "2026-09-03T15:08:47.547Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-eaf05237-b9af-47a4-8c76-594f01853799",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:34:47.067Z",
+      "completedAt": "2026-09-03T14:34:47.067Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-730a29d1-d483-4ba3-9a32-4161ab92040b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:29.234Z",
+      "completedAt": "2026-09-03T14:56:29.234Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-2f569f10-0a27-41ad-b69b-73e403fbf3e6",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:47.422Z",
+      "completedAt": "2026-09-03T14:42:47.422Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-8ac59af8-75b3-42a2-b005-c0dafb917380",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:05.141Z",
+      "completedAt": "2026-09-03T14:58:06.478Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-ccf084d0-b05c-4cc5-b200-757f59412253",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:46:18.669Z",
+      "completedAt": "2026-09-03T14:46:20.226Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-eb48ec4b-2dd5-456a-8532-bc5d519fded1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:16.933Z",
+      "completedAt": "2026-09-03T14:21:16.933Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-1a376049-e0ef-4834-8c84-72d702023872",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:17:42.972Z",
+      "completedAt": "2026-09-03T14:17:42.972Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-41b97cac-67ed-4b78-adbf-54ecdc9b2fbf",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:24:43.776Z",
+      "completedAt": "2026-09-03T14:24:43.776Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-620e039d-2c32-48ac-b0ac-03e3e6f47289",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:34:11.144Z",
+      "completedAt": "2026-09-03T14:34:11.144Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-ba03007f-47ef-4032-9f17-5a2d21e45a86",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:30.171Z",
+      "completedAt": "2026-09-03T14:34:19.279Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-61e04522-4c61-4105-9f89-9f1e455bf940",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:35:51.554Z",
+      "completedAt": "2026-09-03T14:36:41.945Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-24ec4f2f-9da5-4b3b-98e0-68e828d0c05e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:14.658Z",
+      "completedAt": "2026-09-03T14:21:14.658Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-e1953974-0b28-494f-a787-3bd02a006d7e",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:53.836Z",
+      "completedAt": "2026-09-03T15:12:53.836Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-f35198e0-44b8-455d-bc69-d22a64fe8a40",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:43.106Z",
+      "completedAt": "2026-09-03T14:13:47.763Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-0f7cf498-d589-44cf-b1a6-5a5b99ecde12",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:27.708Z",
+      "completedAt": "2026-09-03T15:16:46.628Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-b9dbc472-fe07-4092-83ec-f622df8c63cc",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:32:39.167Z",
+      "completedAt": "2026-09-03T14:32:40.637Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-8ba4a627-f613-4c51-856a-a696635d0251",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:18:09.704Z",
+      "completedAt": "2026-09-03T15:19:13.588Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-6a69a8e6-e5d2-4fc8-9621-80e075345ef2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:40:10.171Z",
+      "completedAt": "2026-09-03T14:40:10.171Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-66b6baba-2234-4129-be36-31515262b31b",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:48.255Z",
+      "completedAt": "2026-09-03T14:36:48.255Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-23458d9b-fec3-4f59-b755-1360e7b37427",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:01:11.061Z",
+      "completedAt": "2026-09-03T15:01:11.061Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-2ae39166-1acb-46e0-b569-b026c304b5d6",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:15:30.856Z",
+      "completedAt": "2026-09-03T14:15:30.856Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-4d7532a8-01da-40e3-8abb-137719cb7661",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:06.422Z",
+      "completedAt": "2026-09-03T15:22:06.422Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-7f3b45b4-0ccc-4b9b-be0f-3b16e311972f",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:15:07.517Z",
+      "completedAt": "2026-09-03T15:15:07.517Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-3c425bea-7aa3-42df-a258-0b99cf92704d",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:37.898Z",
+      "completedAt": "2026-09-03T15:24:39.277Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-4c44c2f4-d54d-4c29-840a-084ff632a85a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:17:48.756Z",
+      "completedAt": "2026-09-03T15:17:48.756Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-66d9e1bc-5bc3-42ca-9667-763d7ea0e324",
+      "status": "pending",
+      "createdAt": "2026-09-03T14:27:05.441Z",
+      "completedAt": null,
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-7d5d8645-a828-464e-9a90-9810a004df8a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:07:59.187Z",
+      "completedAt": "2026-09-03T15:08:53.808Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-f6b5d71d-a35a-4503-9b75-88cd62c6d5b5",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:39.017Z",
+      "completedAt": "2026-09-03T15:05:39.017Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-9e17efc2-49f4-4dc8-9dd4-61a7d2c96a66",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:07:16.182Z",
+      "completedAt": "2026-09-03T15:07:16.182Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-6264a28a-aa09-424a-aa60-844fcc4a5cc4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:50.520Z",
+      "completedAt": "2026-09-03T14:42:58.479Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-bff88336-f0c6-4f38-99b4-e72bd551f508",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:02:24.556Z",
+      "completedAt": "2026-09-03T15:02:25.839Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-19d99d62-0688-4447-8727-3a38248a89b4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:21.819Z",
+      "completedAt": "2026-09-03T14:21:21.819Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-9910d30c-467c-405b-ba32-7fc08eff2d51",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:23:02.128Z",
+      "completedAt": "2026-09-03T15:23:02.128Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-7cc17fd3-0e88-456f-afa8-66a44f972f3c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:40:05.714Z",
+      "completedAt": "2026-09-03T14:40:39.199Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-987a874a-b9ca-4000-83be-77d6be27ce27",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:48.129Z",
+      "completedAt": "2026-09-03T14:33:48.129Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-cf447466-312c-4024-9779-0562240d345d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:18.235Z",
+      "completedAt": "2026-09-03T14:33:18.235Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-6cdfcc11-036d-4a11-adeb-0553f750c7e3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:18:47.045Z",
+      "completedAt": "2026-09-03T14:18:47.045Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-2a31eb69-8f72-43e1-89fb-14942cc09ad5",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:06:17.040Z",
+      "completedAt": "2026-09-03T15:06:17.040Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-138bbe61-6500-4cd8-bdc3-69a886dadd31",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:19:11.989Z",
+      "completedAt": "2026-09-03T15:19:54.737Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-acebe490-4f0e-4b8e-a380-dee97fc296bb",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:27:56.119Z",
+      "completedAt": "2026-09-03T14:27:56.119Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-84c0b54b-f220-47af-801d-3bd727176ab5",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:02.473Z",
+      "completedAt": "2026-09-03T14:13:15.160Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-a3b49c1e-fdbf-4ce5-be22-cfd939b3fde0",
+      "status": "clear",
+      "createdAt": "2026-09-02T17:33:49.782Z",
+      "completedAt": "2026-09-02T17:33:49.782Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-8e3827f4-ab48-46bf-a65a-1d5d06b5e911",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:39.253Z",
+      "completedAt": "2026-09-03T15:01:10.931Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-7369bf9e-251e-4cc7-897d-9b3b1eeeaf3f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:42:29.805Z",
+      "completedAt": "2026-09-03T14:42:29.805Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-ae93134c-84a5-4e00-89b8-32ae7e3a7b4a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:09:15.089Z",
+      "completedAt": "2026-09-07T05:38:21.282Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-669acdba-2796-4bbb-8b9d-740b0e811e60",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:28:50.304Z",
+      "completedAt": "2026-09-03T14:29:01.601Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-ed12a456-90b7-43ea-9ab3-6372009e1a5d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:35:38.206Z",
+      "completedAt": "2026-09-03T14:36:21.560Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-80f08846-3183-4323-a19e-b89dbbe03646",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:35.856Z",
+      "completedAt": "2026-09-03T14:12:35.856Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-af18c3bb-05f1-4b9a-b31c-5d442e7c0462",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:41.679Z",
+      "completedAt": "2026-09-03T15:07:12.698Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-a59b80da-82a4-4d36-bce4-08c7990716a1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:22.736Z",
+      "completedAt": "2026-09-03T14:57:55.174Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-86947b3c-991a-47d2-a578-2fdee628e03f",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:00.718Z",
+      "completedAt": "2026-09-03T14:38:03.381Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-ca0e289a-abf8-4445-b23d-b5c3d1d9b1b3",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:15:50.611Z",
+      "completedAt": "2026-09-03T14:15:50.611Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-8f6c06b6-1e55-4a2c-9872-c451a3372583",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:25:23.235Z",
+      "completedAt": "2026-09-03T14:25:23.235Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-06427d0e-254c-4d41-b2ac-47f5f466e183",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:19:14.010Z",
+      "completedAt": "2026-09-03T14:19:14.010Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c691852c-1ee1-4d4e-b379-b71abdbbb4f2",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:22:50.590Z",
+      "completedAt": "2026-09-03T15:22:50.590Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-578bd1e2-262d-44ac-8b17-11563c20d99b",
+      "status": "clear",
+      "createdAt": "2026-09-03T12:43:35.997Z",
+      "completedAt": "2026-09-03T12:43:38.880Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c56416c0-22a4-4733-aef4-d5780a179231",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:17:29.960Z",
+      "completedAt": "2026-09-03T15:18:19.630Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-250fb36a-3b97-4c3a-803f-bdc923935569",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:02:07.858Z",
+      "completedAt": "2026-09-03T15:02:07.858Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-83cb3fb7-be64-4b56-a16e-e7b12cdb9705",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:19.320Z",
+      "completedAt": "2026-09-03T14:37:19.320Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-a7a74a09-f05b-48b1-9c2d-8ac7bb60f93e",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:16:29.992Z",
+      "completedAt": "2026-09-03T15:16:31.331Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-f71d632f-bdc9-4ae6-9aee-324bd45a0de4",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:59:08.979Z",
+      "completedAt": "2026-09-03T14:59:36.374Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-fe29161e-a080-4200-a6ea-ceb9d17f4b7d",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:36:43.287Z",
+      "completedAt": "2026-09-03T14:36:45.950Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-fcd0d849-857a-4931-be74-bb8c318bca45",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:23:27.696Z",
+      "completedAt": "2026-09-03T14:23:27.696Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c646a6c5-6392-4f63-a184-cfac3998339c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:13:55.111Z",
+      "completedAt": "2026-09-03T14:15:29.440Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-5091f4b3-853c-4a9e-bd17-3ac6fcf1ed39",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:25:12.892Z",
+      "completedAt": "2026-09-03T15:25:12.892Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-93299fb8-c398-4cd9-96eb-614fd30b0624",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:25:38.617Z",
+      "completedAt": "2026-09-03T15:25:52.965Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-877be1d4-cd62-4418-8706-fe42f60b6305",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:50.854Z",
+      "completedAt": "2026-09-03T14:37:50.854Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-bb18bf99-d0c0-4049-bba7-23d5a7ea8620",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:47:17.010Z",
+      "completedAt": "2026-09-03T14:47:18.266Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-99e0edb9-eccb-4fa8-a1ea-35bd90df6258",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:33:14.929Z",
+      "completedAt": "2026-09-03T14:33:14.929Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-20d5ba87-669b-4b6d-84db-0a5cd70c56dc",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:41.878Z",
+      "completedAt": "2026-09-03T15:13:41.878Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-763ca2a4-43d9-4f99-ba8f-05c51eeaaa39",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:53:15.063Z",
+      "completedAt": "2026-09-03T14:53:48.798Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-28c0917b-e951-4a47-a0ca-6dae6a9b35f2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:25.117Z",
+      "completedAt": "2026-09-03T14:56:25.117Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-40977e36-a63e-4143-a8ce-f8dd974973b6",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:26:57.582Z",
+      "completedAt": "2026-09-03T15:28:04.459Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-a08d5705-19fa-4056-920e-9b373701cdeb",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:45.296Z",
+      "completedAt": "2026-09-03T14:38:45.296Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-46f4858a-c7d2-4aaa-ba16-16636f0a0d26",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:00:16.978Z",
+      "completedAt": "2026-09-03T15:00:57.523Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-167eb8f3-0222-4566-b067-fe99f3e5efcf",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:28.252Z",
+      "completedAt": "2026-09-03T15:24:34.055Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-4f88edcf-824f-4138-ba42-0de83c051611",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:57:51.692Z",
+      "completedAt": "2026-09-03T14:57:51.692Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-47d7854d-dc9e-4be4-9b1b-57f70fc3b017",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:58:11.258Z",
+      "completedAt": "2026-09-03T14:58:54.019Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-370c53a2-8eeb-4ed0-bf7e-3715f0c67010",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:30.672Z",
+      "completedAt": "2026-09-03T15:13:30.672Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-3105441c-c0aa-42be-ad27-5c9008e8eb94",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:19:46.290Z",
+      "completedAt": "2026-09-03T14:20:18.982Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-e5e35e48-5b9a-4216-bfd3-1b8425591653",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:12:49.342Z",
+      "completedAt": "2026-09-03T15:12:49.342Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-edd5cf27-a033-4ae4-be0e-665a7db3fcda",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:21:56.700Z",
+      "completedAt": "2026-09-03T14:22:34.063Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-36da7989-2f7c-4e36-91d0-c3b817a21dc1",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:44:17.803Z",
+      "completedAt": "2026-09-03T14:44:34.014Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-f09b7c73-2962-4729-a34b-ad6e5e697655",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:58.878Z",
+      "completedAt": "2026-09-03T15:21:58.878Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c8bcf307-2274-4602-be96-4487858d4aad",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:37:07.809Z",
+      "completedAt": "2026-09-03T14:37:07.809Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-216ead76-03f1-4905-ac0f-e33c03d575d2",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:56:35.687Z",
+      "completedAt": "2026-09-03T14:57:19.254Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-cb213c80-b198-4aef-a52a-81c315e40d4a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:13:58.256Z",
+      "completedAt": "2026-09-03T15:13:58.256Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-28d04652-7e99-4eb9-97db-edb0deef0d34",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:46:51.607Z",
+      "completedAt": "2026-09-03T14:46:51.607Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-0ed34baa-1827-42b0-9e94-7689d380b53a",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:24:14.441Z",
+      "completedAt": "2026-09-03T14:24:14.441Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-f44693d2-e357-4677-9982-b67debef976d",
+      "status": "clear",
+      "createdAt": "2026-09-03T12:41:35.830Z",
+      "completedAt": "2026-09-03T12:41:35.830Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-714d3984-d9aa-40f5-b0d6-f72d54e0cd31",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:51.617Z",
+      "completedAt": "2026-09-03T15:20:51.617Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-5c26b3c5-ff94-458d-8ba5-fba378d4f9a0",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:30:05.891Z",
+      "completedAt": "2026-09-03T14:30:05.891Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c640009b-af55-4b29-801f-f428bf835162",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:22.720Z",
+      "completedAt": "2026-09-03T14:41:22.720Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-bc364631-2868-46a7-bae8-fe9f9c4fd7c8",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:17:26.014Z",
+      "completedAt": "2026-09-03T14:17:26.014Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-5d6fea20-9669-4cfd-83e5-9cf2072bde1a",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:20:48.193Z",
+      "completedAt": "2026-09-03T15:20:50.507Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-452384f2-a369-4e98-92dd-ee2ef6773434",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:05:59.159Z",
+      "completedAt": "2026-09-03T15:05:59.159Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-915b7ae4-915a-470d-ba09-57236ad7b4cb",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:42.265Z",
+      "completedAt": "2026-09-03T15:22:15.647Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c9d3c95d-bf31-47e4-81f2-08d9feb3ee70",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:12:32.472Z",
+      "completedAt": "2026-09-03T14:12:32.472Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-360dd66d-739b-49b7-961c-f0a9c0e5fbaa",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:38:05.317Z",
+      "completedAt": "2026-09-03T14:38:05.317Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-c0a5b868-5bbd-404b-b7f5-4175f873caac",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:41:59.915Z",
+      "completedAt": "2026-09-03T14:42:01.125Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-1d7a0695-404d-4283-9839-d44f22cc6f9b",
+      "status": "clear",
+      "createdAt": "2026-09-07T09:45:10.216Z",
+      "completedAt": "2026-09-07T09:45:10.216Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-76ce21d9-ed9f-42a6-8947-88ac4a9e016c",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:53:02.781Z",
+      "completedAt": "2026-09-03T14:53:02.781Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-a74e1bf0-1ab4-4fa9-a327-2a0b0ee6e1fa",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:54:04.427Z",
+      "completedAt": "2026-09-03T14:54:36.798Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-0ccd501f-07eb-4d44-8346-0cd3d088ab7e",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:03:00.706Z",
+      "completedAt": "2026-09-03T15:03:46.511Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-9416099e-ac2f-4635-884a-2f61ed70fd7e",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:28:01.707Z",
+      "completedAt": "2026-09-03T14:28:47.480Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-78844b4c-59e8-444e-b071-fda3213f1fc4",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:21:24.878Z",
+      "completedAt": "2026-09-03T15:21:24.878Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-de5b74e9-636c-46d6-8b9b-d22b63ffa335",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:51:56.168Z",
+      "completedAt": "2026-09-03T14:51:56.168Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-d970134c-cc3d-4f6f-b419-3c2614c88a69",
+      "status": "clear",
+      "createdAt": "2026-09-03T15:24:27.067Z",
+      "completedAt": "2026-09-03T15:24:27.067Z",
+      "employeeId": "EMP-010"
+    },
+    {
+      "checkId": "CHK-4b010673-3b4a-49db-aac8-2fec8d70b179",
+      "status": "clear",
+      "createdAt": "2026-09-03T14:51:59.022Z",
+      "completedAt": "2026-09-03T14:52:09.315Z",
+      "employeeId": "EMP-010"
+    }
+  ],
+  "statusCounts": {
+    "flagged": 268,
+    "pending": 12,
+    "clear": 363
+  },
+  "completionSecs": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1.117,
+    1.124,
+    1.191,
+    1.209,
+    1.21,
+    1.214,
+    1.247,
+    1.256,
+    1.258,
+    1.268,
+    1.283,
+    1.295,
+    1.299,
+    1.332,
+    1.339,
+    1.364,
+    1.379,
+    1.394,
+    1.414,
+    1.421,
+    1.428,
+    1.437,
+    1.451,
+    1.466,
+    1.47,
+    1.47,
+    1.477,
+    1.497,
+    1.504,
+    1.514,
+    1.519,
+    1.521,
+    1.554,
+    1.557,
+    1.581,
+    1.596,
+    1.603,
+    1.605,
+    1.611,
+    1.637,
+    1.708,
+    1.771,
+    2.277,
+    2.283,
+    2.314,
+    2.371,
+    2.378,
+    2.459,
+    2.468,
+    2.474,
+    2.479,
+    2.601,
+    2.616,
+    2.62,
+    2.663,
+    2.663,
+    2.731,
+    2.755,
+    2.8,
+    2.883,
+    3.105,
+    3.724,
+    4.238,
+    4.425,
+    4.465,
+    4.535,
+    4.608,
+    4.626,
+    4.657,
+    4.687,
+    4.769,
+    4.792,
+    4.921,
+    5.803,
+    6.323,
+    6.802,
+    7.731,
+    7.773,
+    8.93,
+    9.522,
+    9.634,
+    10.293,
+    10.313,
+    10.477,
+    10.761,
+    11.107,
+    11.16,
+    11.297,
+    12.024,
+    12.071,
+    12.37,
+    12.393,
+    12.396,
+    12.445,
+    12.513,
+    12.54,
+    12.559,
+    12.63,
+    12.655,
+    12.687,
+    12.72,
+    12.736,
+    12.754,
+    12.99,
+    13.81,
+    13.847,
+    14.317,
+    14.348,
+    14.4,
+    14.446,
+    14.633,
+    14.649,
+    14.662,
+    15.897,
+    15.981,
+    16.06,
+    16.211,
+    16.474,
+    16.479,
+    17.161,
+    17.397,
+    18.369,
+    18.92,
+    18.97,
+    19.002,
+    19.059,
+    19.433,
+    19.441,
+    21.235,
+    21.421,
+    21.516,
+    21.661,
+    21.764,
+    22.207,
+    22.788,
+    23.477,
+    25.241,
+    25.687,
+    26.68,
+    26.801,
+    27.101,
+    27.395,
+    27.598,
+    27.788,
+    28.411,
+    28.969,
+    28.996,
+    30.355,
+    30.614,
+    31.329,
+    31.373,
+    31.456,
+    31.678,
+    31.683,
+    31.97,
+    32.235,
+    32.324,
+    32.337,
+    32.371,
+    32.438,
+    32.473,
+    32.62,
+    32.692,
+    33.35,
+    33.382,
+    33.485,
+    33.654,
+    33.735,
+    33.757,
+    35.515,
+    35.686,
+    36.743,
+    36.82,
+    36.967,
+    37.363,
+    37.636,
+    37.649,
+    37.7,
+    37.875,
+    38.19,
+    38.607,
+    39.19,
+    39.315,
+    40.371,
+    40.53,
+    40.545,
+    41.068,
+    42.612,
+    42.748,
+    42.761,
+    43.215,
+    43.354,
+    43.364,
+    43.567,
+    43.869,
+    43.987,
+    44.136,
+    45.66,
+    45.773,
+    45.805,
+    46.874,
+    49.104,
+    49.108,
+    49.67,
+    50.109,
+    50.391,
+    52.039,
+    52.669,
+    53.457,
+    54.114,
+    54.279,
+    54.621,
+    59.538,
+    60.591,
+    60.868,
+    61.337,
+    61.591,
+    61.726,
+    61.902,
+    62.117,
+    63.884,
+    64.696,
+    66.249,
+    66.307,
+    66.877,
+    67.671,
+    67.851,
+    67.959,
+    69.246,
+    71.89,
+    72.15,
+    73.87,
+    74.649,
+    75.856,
+    76.947,
+    77.537,
+    78.504,
+    80.026,
+    82.588,
+    88.71,
+    89.046,
+    91.019,
+    94.329,
+    95.611,
+    108.244,
+    129.778,
+    138.077,
+    176.973,
+    4937.589,
+    311346.193
+  ]
+}

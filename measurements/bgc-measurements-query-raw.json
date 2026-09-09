@@ -1,0 +1,213 @@
+{
+  "baseUrl": "https://54capvm12g.execute-api.ap-northeast-2.amazonaws.com",
+  "generatedAt": "2026-09-07T08:01:22.787Z",
+  "q1": [
+    {
+      "identity": {
+        "employeeId": "MEAS-01",
+        "name": "김도현",
+        "dateOfBirth": "1990-01-15"
+      },
+      "result": {
+        "ms": 646.3746,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-02",
+        "name": "이서연",
+        "dateOfBirth": "1988-04-22"
+      },
+      "result": {
+        "ms": 37.81819999999993,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-03",
+        "name": "박준호",
+        "dateOfBirth": "1995-07-03"
+      },
+      "result": {
+        "ms": 30009.860099999998,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "message": "Service Unavailable"
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-04",
+        "name": "최유진",
+        "dateOfBirth": "1992-11-30"
+      },
+      "result": {
+        "ms": 586.1746999999996,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-05",
+        "name": "정민석",
+        "dateOfBirth": "1985-02-18"
+      },
+      "result": {
+        "ms": 30015.751700000004,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "message": "Service Unavailable"
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-06",
+        "name": "한지우",
+        "dateOfBirth": "1998-09-09"
+      },
+      "result": {
+        "ms": 104.15849999999773,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-07",
+        "name": "남궁서준",
+        "dateOfBirth": "1993-06-12"
+      },
+      "result": {
+        "ms": 30.71820000000298,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-08",
+        "name": "오세훈",
+        "dateOfBirth": "1991-03-27"
+      },
+      "result": {
+        "ms": 33.760599999994156,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-09",
+        "name": "배수지",
+        "dateOfBirth": "1996-12-05"
+      },
+      "result": {
+        "ms": 16913.405899999998,
+        "status": 200,
+        "retryAfter": null,
+        "body": {
+          "employeeId": "MEAS-09",
+          "checks": [],
+          "totalCount": 0
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "MEAS-10",
+        "name": "강태오",
+        "dateOfBirth": "1989-08-14"
+      },
+      "result": {
+        "ms": 59.65680000001157,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    }
+  ],
+  "q2": {
+    "ms": 26.824600000007194,
+    "status": 503,
+    "retryAfter": null,
+    "body": {
+      "error": "Service Unavailable",
+      "message": "The service is currently overloaded. Please retry after the specified time.",
+      "retryAfter": 30,
+      "statusCode": 503
+    }
+  },
+  "q3": {
+    "exampleFromSpec": {
+      "ms": 22716.168900000004,
+      "status": 404,
+      "retryAfter": null,
+      "body": {
+        "error": "Not Found",
+        "message": "Background check not found: CHK-a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "statusCode": 404
+      }
+    },
+    "obviouslyFake": {
+      "ms": 354.8929000000062,
+      "status": 404,
+      "retryAfter": null,
+      "body": {
+        "error": "Not Found",
+        "message": "Background check not found: CHK-does-not-exist-0000",
+        "statusCode": 404
+      }
+    }
+  },
+  "listSummary": {
+    "n": 10,
+    "p50": 104.15849999999773,
+    "p95": 30015.751700000004,
+    "p99": 30015.751700000004,
+    "max": 30015.751700000004,
+    "min": 30.71820000000298
+  }
+}

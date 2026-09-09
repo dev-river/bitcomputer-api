@@ -1,0 +1,941 @@
+{
+  "baseUrl": "https://54capvm12g.execute-api.ap-northeast-2.amazonaws.com",
+  "generatedAt": "2026-09-08T00:15:08.822Z",
+  "q1": [
+    {
+      "identity": {
+        "employeeId": "EMP-001",
+        "name": "김민준",
+        "dateOfBirth": "1990-03-15"
+      },
+      "result": {
+        "ms": 635.1533000000001,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "error": "Service Unavailable",
+          "message": "The service is currently overloaded. Please retry after the specified time.",
+          "retryAfter": 30,
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-002",
+        "name": "김민준",
+        "dateOfBirth": "1994-11-02"
+      },
+      "result": {
+        "ms": 64.82309999999995,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "error": "Service Unavailable",
+          "message": "The service is currently overloaded. Please retry after the specified time.",
+          "retryAfter": 30,
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-003",
+        "name": "남궁서준",
+        "dateOfBirth": "1988-07-21"
+      },
+      "result": {
+        "ms": 33.98199999999997,
+        "status": 500,
+        "retryAfter": null,
+        "body": {
+          "error": "Internal Server Error",
+          "message": "Service temporarily unavailable. Please try again later.",
+          "statusCode": 500
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-004",
+        "name": "황보라온",
+        "dateOfBirth": "1995-02-09"
+      },
+      "result": {
+        "ms": 30017.8811,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "message": "Service Unavailable"
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-005",
+        "name": "김솔",
+        "dateOfBirth": "1992-12-30"
+      },
+      "result": {
+        "ms": 541.4314000000013,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "error": "Service Unavailable",
+          "message": "The service is currently overloaded. Please retry after the specified time.",
+          "retryAfter": 30,
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-006",
+        "name": "선우진",
+        "dateOfBirth": "1991-05-05"
+      },
+      "result": {
+        "ms": 27.985499999998865,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "error": "Service Unavailable",
+          "message": "The service is currently overloaded. Please retry after the specified time.",
+          "retryAfter": 30,
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-007",
+        "name": "이서연",
+        "dateOfBirth": null
+      },
+      "result": {
+        "ms": 30.146899999999732,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "error": "Service Unavailable",
+          "message": "The service is currently overloaded. Please retry after the specified time.",
+          "retryAfter": 30,
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-008",
+        "name": "박민준",
+        "dateOfBirth": "1993-08-17"
+      },
+      "result": {
+        "ms": 27182.128299999997,
+        "status": 200,
+        "retryAfter": null,
+        "body": {
+          "employeeId": "EMP-008",
+          "checks": [
+            {
+              "checkId": "CHK-c9d7de03-d65d-4090-8579-26c9e474dfe4",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:20:10.106Z",
+              "completedAt": "2026-09-03T14:20:47.742Z"
+            },
+            {
+              "checkId": "CHK-5fc0800f-6d5c-433e-82fc-0250cfa9015d",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:34:20.517Z",
+              "completedAt": "2026-09-03T14:35:38.054Z"
+            },
+            {
+              "checkId": "CHK-f582ed63-f78e-476a-bf07-d23e2a87d37b",
+              "status": "flagged",
+              "createdAt": "2026-09-07T11:33:35.842Z",
+              "completedAt": "2026-09-07T11:33:37.613Z"
+            },
+            {
+              "checkId": "CHK-e63ba8c0-51f9-401e-b0d7-ebd86ca08a2f",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:41:21.633Z",
+              "completedAt": "2026-09-03T14:41:21.633Z"
+            },
+            {
+              "checkId": "CHK-54cdb740-4dd3-489d-a5cd-60cabbc8e06a",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:33:47.025Z",
+              "completedAt": "2026-09-03T14:33:47.025Z"
+            },
+            {
+              "checkId": "CHK-a735967d-0e8d-43fd-a92e-a91ffc262075",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:06:06.155Z",
+              "completedAt": "2026-09-03T15:06:18.179Z"
+            },
+            {
+              "checkId": "CHK-63e77adb-95b1-49a9-b3a6-9fc79d99d40b",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:56:28.134Z",
+              "completedAt": "2026-09-03T14:56:28.134Z"
+            },
+            {
+              "checkId": "CHK-e22c4dd8-9e52-4a3f-8425-f38dbab5db63",
+              "status": "flagged",
+              "createdAt": "2026-09-03T12:40:54.643Z",
+              "completedAt": "2026-09-03T12:40:54.643Z"
+            },
+            {
+              "checkId": "CHK-2adf6bcb-1600-49b1-a4cb-d6cd4d99d70e",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:37:17.111Z",
+              "completedAt": "2026-09-03T14:37:17.111Z"
+            },
+            {
+              "checkId": "CHK-118d7f1f-48b1-4e12-a1f3-a4ca208686bf",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:30:43.517Z",
+              "completedAt": "2026-09-03T14:30:56.076Z"
+            },
+            {
+              "checkId": "CHK-cc9d7b58-a67c-4ad4-9cb9-d647d28e8fce",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:30:03.196Z",
+              "completedAt": "2026-09-03T14:30:20.357Z"
+            },
+            {
+              "checkId": "CHK-67c9cac8-7a26-4b74-921b-e85367be206b",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:26:49.760Z",
+              "completedAt": "2026-09-03T14:26:49.760Z"
+            },
+            {
+              "checkId": "CHK-cb8c8fb3-1e9f-4443-8eea-2968d7c27034",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:12:19.354Z",
+              "completedAt": "2026-09-03T15:12:19.354Z"
+            },
+            {
+              "checkId": "CHK-6df11f6c-c947-463e-b2ea-e270817b2691",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:25:00.105Z",
+              "completedAt": "2026-09-03T15:25:45.765Z"
+            },
+            {
+              "checkId": "CHK-d3365bcf-f94b-4316-93b2-dcb06dd22396",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:21:57.722Z",
+              "completedAt": "2026-09-03T15:21:57.722Z"
+            },
+            {
+              "checkId": "CHK-8277befd-71fb-4a68-a269-413d6e7a5111",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:42:24.134Z",
+              "completedAt": "2026-09-03T14:42:28.599Z"
+            },
+            {
+              "checkId": "CHK-8c0bf9f4-062f-481d-8316-83498c70d368",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:47:27.610Z",
+              "completedAt": "2026-09-03T14:47:27.610Z"
+            },
+            {
+              "checkId": "CHK-eda672c6-1694-468c-a338-9a6460b8cd6e",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:05:57.476Z",
+              "completedAt": "2026-09-03T15:05:57.476Z"
+            },
+            {
+              "checkId": "CHK-403e293b-a62f-4e66-96f8-c8a4ef392962",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:23:22.387Z",
+              "completedAt": "2026-09-03T15:23:23.634Z"
+            },
+            {
+              "checkId": "CHK-2f933fc8-0bca-480b-96b7-fd7806e5719c",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:27:54.408Z",
+              "completedAt": "2026-09-03T14:27:55.772Z"
+            },
+            {
+              "checkId": "CHK-68e12428-13e4-4775-aeca-70b9a9d564e8",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:19:37.012Z",
+              "completedAt": "2026-09-03T14:20:17.542Z"
+            },
+            {
+              "checkId": "CHK-c1e5dbda-c4e9-43a9-a88a-7ef97081bd0d",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:20:56.979Z",
+              "completedAt": "2026-09-03T15:21:23.780Z"
+            },
+            {
+              "checkId": "CHK-a9653455-28e4-45d6-b08f-afdce9a730c2",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:12:32.327Z",
+              "completedAt": "2026-09-03T14:12:32.327Z"
+            },
+            {
+              "checkId": "CHK-ee66b389-63f8-492d-ba2d-138c813dcb62",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:24:02.300Z",
+              "completedAt": "2026-09-03T14:24:04.779Z"
+            },
+            {
+              "checkId": "CHK-c1442205-b6bc-4dfc-b5d4-b66b944e72fb",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:02:05.617Z",
+              "completedAt": "2026-09-03T15:02:05.617Z"
+            },
+            {
+              "checkId": "CHK-f24e774d-def8-426d-b279-f4551eb7b0c9",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:18:44.665Z",
+              "completedAt": "2026-09-03T14:18:44.665Z"
+            },
+            {
+              "checkId": "CHK-3d15f2fc-874f-4ea1-bfd2-740ac920d2c1",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:25:31.726Z",
+              "completedAt": "2026-09-03T15:25:31.726Z"
+            },
+            {
+              "checkId": "CHK-fce6c2c2-083d-41cc-af3e-2b85040e728c",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:38:04.644Z",
+              "completedAt": "2026-09-03T14:38:48.513Z"
+            },
+            {
+              "checkId": "CHK-2447aa30-f87a-435f-9010-22dbbaefb225",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:02:22.366Z",
+              "completedAt": "2026-09-03T15:02:22.366Z"
+            },
+            {
+              "checkId": "CHK-87eb66f7-c6c9-4a34-8186-98082d5437b1",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:12:46.547Z",
+              "completedAt": "2026-09-03T14:13:01.196Z"
+            },
+            {
+              "checkId": "CHK-3ef89c24-c1c3-4314-807e-56f96f8c222c",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:30:17.686Z",
+              "completedAt": "2026-09-03T15:30:30.422Z"
+            },
+            {
+              "checkId": "CHK-22c7a7e6-7eb4-497c-b912-b52852112d4a",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:21:55.624Z",
+              "completedAt": "2026-09-03T14:21:55.624Z"
+            },
+            {
+              "checkId": "CHK-249ed2b8-8072-4646-934f-5099d9fc1d97",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:37:05.582Z",
+              "completedAt": "2026-09-03T14:37:05.582Z"
+            },
+            {
+              "checkId": "CHK-304f833a-4008-4c0a-bd6b-274dae7ef5f5",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:24:35.299Z",
+              "completedAt": "2026-09-03T15:24:36.594Z"
+            },
+            {
+              "checkId": "CHK-bbc3b1d3-0a69-44f3-80eb-4e01104ea7cd",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:17:44.458Z",
+              "completedAt": "2026-09-03T15:18:56.608Z"
+            },
+            {
+              "checkId": "CHK-17172bec-37ca-4c65-b4e2-a50332833692",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:20:48.157Z",
+              "completedAt": "2026-09-03T15:20:48.157Z"
+            },
+            {
+              "checkId": "CHK-c39a46d2-eaa4-4f00-9062-1ad4672d3956",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:56:24.027Z",
+              "completedAt": "2026-09-03T14:56:24.027Z"
+            },
+            {
+              "checkId": "CHK-f77f8cc9-1458-4436-a31b-0bf8fff10e66",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:59:06.788Z",
+              "completedAt": "2026-09-03T14:59:06.788Z"
+            },
+            {
+              "checkId": "CHK-56eb21bb-4518-4707-915b-b189c7eccaef",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:09:12.015Z",
+              "completedAt": "2026-09-03T15:09:12.015Z"
+            },
+            {
+              "checkId": "CHK-afad0b1b-f6fa-42a4-a730-63fb1a240e7d",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:18:07.172Z",
+              "completedAt": "2026-09-03T15:18:07.172Z"
+            },
+            {
+              "checkId": "CHK-4d25a698-4a3b-4a7c-bee2-ae7fcbbae8e7",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:44:16.715Z",
+              "completedAt": "2026-09-03T14:44:21.341Z"
+            },
+            {
+              "checkId": "CHK-f7c755b5-b4b2-4e2b-9911-185294241b78",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:34:01.861Z",
+              "completedAt": "2026-09-03T14:35:30.907Z"
+            },
+            {
+              "checkId": "CHK-897ba2b7-9150-43be-974a-bd2fba7736d3",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:13:48.474Z",
+              "completedAt": "2026-09-03T15:13:49.911Z"
+            },
+            {
+              "checkId": "CHK-6b587690-124d-4ef6-8d33-d8cfb07e8a2f",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:05:41.396Z",
+              "completedAt": "2026-09-03T15:05:42.520Z"
+            },
+            {
+              "checkId": "CHK-a382e7d4-6720-45dc-84b5-95221e9cb78a",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:15:21.594Z",
+              "completedAt": "2026-09-03T14:15:42.829Z"
+            },
+            {
+              "checkId": "CHK-91a06ecb-af9e-408e-a78c-22293e21aa53",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:38:10.759Z",
+              "completedAt": "2026-09-03T14:39:12.661Z"
+            },
+            {
+              "checkId": "CHK-fbbf413b-ef9c-4e6e-b783-304c02444d34",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:07:39.701Z",
+              "completedAt": "2026-09-03T15:08:41.292Z"
+            },
+            {
+              "checkId": "CHK-11822c9d-745d-4142-b66b-7d16492942dd",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:16:10.759Z",
+              "completedAt": "2026-09-03T15:16:10.759Z"
+            },
+            {
+              "checkId": "CHK-0be480d1-0b98-47b7-b272-eaaa050b8aa0",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:22:30.758Z",
+              "completedAt": "2026-09-03T15:23:08.633Z"
+            },
+            {
+              "checkId": "CHK-c5c7d495-3452-438e-bb3b-07fb90cb64b6",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:53:48.920Z",
+              "completedAt": "2026-09-03T14:54:03.237Z"
+            },
+            {
+              "checkId": "CHK-1f3afced-4e4a-48a8-9a53-d7a69ee990f5",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:17:24.859Z",
+              "completedAt": "2026-09-03T14:18:13.963Z"
+            },
+            {
+              "checkId": "CHK-cf2fdfaf-6f48-4dc9-b0ce-964102018c44",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:16:33.956Z",
+              "completedAt": "2026-09-03T15:16:33.956Z"
+            },
+            {
+              "checkId": "CHK-03e2fb37-f3bf-4fac-8469-c10b26e0f2cd",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:37:23.499Z",
+              "completedAt": "2026-09-03T14:38:01.199Z"
+            },
+            {
+              "checkId": "CHK-c7e2749e-6c87-4425-b259-245cf957cd40",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:13:40.696Z",
+              "completedAt": "2026-09-03T15:14:54.566Z"
+            },
+            {
+              "checkId": "CHK-b3dbea8a-e7c5-4748-b2ca-8db1242a9ace",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:42:35.091Z",
+              "completedAt": "2026-09-03T14:42:46.198Z"
+            },
+            {
+              "checkId": "CHK-184b0a07-e45d-4be7-a390-79a2338e46e0",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:13:18.617Z",
+              "completedAt": "2026-09-03T14:13:18.617Z"
+            },
+            {
+              "checkId": "CHK-ad86e135-1595-41bd-97dd-b861480f902f",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:24:41.583Z",
+              "completedAt": "2026-09-03T14:24:41.583Z"
+            },
+            {
+              "checkId": "CHK-80405566-95a0-4af2-a4ed-92e18bc80b58",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:07:13.911Z",
+              "completedAt": "2026-09-03T15:07:13.911Z"
+            },
+            {
+              "checkId": "CHK-cc8792d0-e721-4a13-9b90-326aeb45e926",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:58:08.969Z",
+              "completedAt": "2026-09-03T14:58:08.969Z"
+            },
+            {
+              "checkId": "CHK-81246e55-cc7b-4eaf-8ba9-728ac6840940",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:21:15.833Z",
+              "completedAt": "2026-09-03T14:21:15.833Z"
+            },
+            {
+              "checkId": "CHK-0e0bda00-d142-487e-821c-0000b87a3dea",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:47:12.745Z",
+              "completedAt": "2026-09-03T14:47:12.745Z"
+            },
+            {
+              "checkId": "CHK-6c1f8169-8a34-4435-91dd-874961120d5e",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:37:59.605Z",
+              "completedAt": "2026-09-03T14:37:59.605Z"
+            },
+            {
+              "checkId": "CHK-d8edecdf-5562-4607-9197-7e7437ec80fa",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:19:07.840Z",
+              "completedAt": "2026-09-03T14:19:44.583Z"
+            },
+            {
+              "checkId": "CHK-fca0fd22-ef37-4c9b-af01-2ab46933d152",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:22:59.576Z",
+              "completedAt": "2026-09-03T15:23:00.785Z"
+            },
+            {
+              "checkId": "CHK-2c62eec9-7646-49d2-9c07-1aae724fb1d6",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:53:12.738Z",
+              "completedAt": "2026-09-03T14:53:12.738Z"
+            },
+            {
+              "checkId": "CHK-8f803fc7-c42d-4095-9b3a-a7e4547daad9",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:21:20.663Z",
+              "completedAt": "2026-09-03T14:21:20.663Z"
+            },
+            {
+              "checkId": "CHK-1b70abb5-8643-4b85-95e5-142af7b5d3ac",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:15:17.872Z",
+              "completedAt": "2026-09-03T15:15:43.113Z"
+            },
+            {
+              "checkId": "CHK-221d66d2-5123-4d6b-93c0-d6f441a72aad",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:40:08.308Z",
+              "completedAt": "2026-09-03T14:40:33.995Z"
+            },
+            {
+              "checkId": "CHK-40ffdb4b-8c78-4403-8b5a-013de2662e75",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:41:57.712Z",
+              "completedAt": "2026-09-03T14:41:57.712Z"
+            },
+            {
+              "checkId": "CHK-563f6c01-eaa3-4938-adc9-74393c67dda4",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:56:34.589Z",
+              "completedAt": "2026-09-03T14:56:34.589Z"
+            },
+            {
+              "checkId": "CHK-9e4f84be-6b37-40c6-bedd-e0c0f1677999",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:18:56.780Z",
+              "completedAt": "2026-09-03T15:18:56.780Z"
+            },
+            {
+              "checkId": "CHK-8d3f27e1-cff0-4947-b97a-d2f95fdbc282",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:28:00.519Z",
+              "completedAt": "2026-09-03T14:28:11.280Z"
+            },
+            {
+              "checkId": "CHK-7f3deef5-3eb0-4712-b239-dc1a83101113",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:22:04.220Z",
+              "completedAt": "2026-09-03T15:22:04.220Z"
+            },
+            {
+              "checkId": "CHK-fb1f1c39-bbef-40f0-bf55-ad9059ce0fad",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:21:41.146Z",
+              "completedAt": "2026-09-03T15:21:41.146Z"
+            },
+            {
+              "checkId": "CHK-e066c7f0-f118-44d9-9eb1-ef52ca66cc09",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:36:43.294Z",
+              "completedAt": "2026-09-03T14:36:43.294Z"
+            },
+            {
+              "checkId": "CHK-6c256256-f5f2-4743-9d05-cf0066283276",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:09:27.154Z",
+              "completedAt": "2026-09-03T15:09:27.154Z"
+            },
+            {
+              "checkId": "CHK-68581d67-0cd8-4edb-99a7-a008d2113399",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:46:12.702Z",
+              "completedAt": "2026-09-03T14:46:30.099Z"
+            },
+            {
+              "checkId": "CHK-6801ad50-500f-421f-b932-0948f8816536",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:35:49.370Z",
+              "completedAt": "2026-09-03T14:35:49.370Z"
+            },
+            {
+              "checkId": "CHK-ac788e33-70c0-4635-8979-68de901233ec",
+              "status": "flagged",
+              "createdAt": "2026-09-03T12:42:38.394Z",
+              "completedAt": "2026-09-03T12:43:17.584Z"
+            },
+            {
+              "checkId": "CHK-367a5167-f990-4394-ba75-82daa7d3a1da",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:12:34.717Z",
+              "completedAt": "2026-09-03T14:12:34.717Z"
+            },
+            {
+              "checkId": "CHK-32e489df-34a0-43b3-9710-75ad360e0006",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:02:58.549Z",
+              "completedAt": "2026-09-03T15:03:08.862Z"
+            },
+            {
+              "checkId": "CHK-cac08b06-104e-4899-a473-dc5120042df7",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:41:49.405Z",
+              "completedAt": "2026-09-03T14:41:49.405Z"
+            },
+            {
+              "checkId": "CHK-0a21d917-a2ff-4bb8-bd3f-fe2e475059bc",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:57:20.524Z",
+              "completedAt": "2026-09-03T14:57:20.524Z"
+            },
+            {
+              "checkId": "CHK-05e50bb8-41a9-4aef-9dc2-a496f14d5842",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:33:27.346Z",
+              "completedAt": "2026-09-03T14:33:39.739Z"
+            },
+            {
+              "checkId": "CHK-21058d5c-9ee4-4cf5-8267-42b55a34ded8",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:12:49.311Z",
+              "completedAt": "2026-09-03T15:12:49.311Z"
+            },
+            {
+              "checkId": "CHK-5104ffa4-edca-4894-b178-96c81b311ffe",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:26:55.319Z",
+              "completedAt": "2026-09-03T15:26:55.319Z"
+            },
+            {
+              "checkId": "CHK-6d5f6576-7f77-46a9-9db1-fb7a96fee573",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:13:27.866Z",
+              "completedAt": "2026-09-03T15:13:29.471Z"
+            },
+            {
+              "checkId": "CHK-22c00cb5-c9cf-41bb-bb07-77f2d6b8898a",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:56:42.178Z",
+              "completedAt": "2026-09-03T14:56:42.178Z"
+            },
+            {
+              "checkId": "CHK-08ee602d-ba35-4c7d-978d-b6f8ddf29fca",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:24:28.213Z",
+              "completedAt": "2026-09-03T15:24:28.213Z"
+            },
+            {
+              "checkId": "CHK-63f46e9f-016f-4fd1-869d-bfbc4be71075",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:17:39.520Z",
+              "completedAt": "2026-09-03T14:18:33.634Z"
+            },
+            {
+              "checkId": "CHK-ba19de3e-5c8c-421d-86a8-c8b145e6cccd",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:51:57.405Z",
+              "completedAt": "2026-09-03T14:52:12.038Z"
+            },
+            {
+              "checkId": "CHK-e16cefc8-0954-4ea1-bff2-bc94f4e808d6",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:50:21.552Z",
+              "completedAt": "2026-09-03T14:50:21.552Z"
+            },
+            {
+              "checkId": "CHK-3628a074-c3e9-454d-a3e2-b98ccc79cbc3",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:23:24.905Z",
+              "completedAt": "2026-09-03T14:23:26.419Z"
+            },
+            {
+              "checkId": "CHK-fb9817d3-a157-4205-895a-9c8923cc2ee6",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:52:26.340Z",
+              "completedAt": "2026-09-03T14:53:25.878Z"
+            },
+            {
+              "checkId": "CHK-8b108f4a-cdb9-475d-b548-493023cc74ec",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:25:21.022Z",
+              "completedAt": "2026-09-03T14:25:21.022Z"
+            },
+            {
+              "checkId": "CHK-52e6b045-239c-4b92-9f70-da8901af567b",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:33:13.840Z",
+              "completedAt": "2026-09-03T14:33:13.840Z"
+            },
+            {
+              "checkId": "CHK-eb7d204d-05f9-409b-908b-6c1962fef545",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:35:32.341Z",
+              "completedAt": "2026-09-03T14:35:32.341Z"
+            },
+            {
+              "checkId": "CHK-b738fb57-5c6f-40b1-896d-2b8e74377fb5",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:40:05.713Z",
+              "completedAt": "2026-09-03T14:40:08.181Z"
+            },
+            {
+              "checkId": "CHK-c8288f0f-9bd2-4ed7-9272-933d0603fb6b",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:20:50.606Z",
+              "completedAt": "2026-09-03T15:20:50.606Z"
+            },
+            {
+              "checkId": "CHK-979f363a-9516-483d-8aa4-6f6429666857",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:15:48.385Z",
+              "completedAt": "2026-09-03T14:15:48.385Z"
+            },
+            {
+              "checkId": "CHK-5c851b5a-e1ea-4250-a193-fb1c2232089c",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:16:28.865Z",
+              "completedAt": "2026-09-03T15:16:28.865Z"
+            },
+            {
+              "checkId": "CHK-a313720c-9a87-4505-8bdb-0b0d4772b034",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:46:49.410Z",
+              "completedAt": "2026-09-03T14:46:49.410Z"
+            },
+            {
+              "checkId": "CHK-cda1aafc-5c2d-4848-9ea2-bdb83f467ce9",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:13:52.883Z",
+              "completedAt": "2026-09-03T14:13:52.883Z"
+            },
+            {
+              "checkId": "CHK-6b2dcd48-45e2-4667-bbe6-c1b7811c7c33",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:12:52.727Z",
+              "completedAt": "2026-09-03T15:12:52.727Z"
+            },
+            {
+              "checkId": "CHK-2d690810-e193-4113-8823-2e931c9cdac8",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:26:41.279Z",
+              "completedAt": "2026-09-03T14:26:41.279Z"
+            },
+            {
+              "checkId": "CHK-37223db0-9761-4aff-9746-bbdd34129879",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:53:00.406Z",
+              "completedAt": "2026-09-03T14:53:00.406Z"
+            },
+            {
+              "checkId": "CHK-23faf7f6-0967-45d2-966f-8bb54b00fca1",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:33:17.295Z",
+              "completedAt": "2026-09-03T14:33:17.295Z"
+            },
+            {
+              "checkId": "CHK-7e26d9f7-ecac-4bfe-8052-262c2a4c0330",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:05:39.036Z",
+              "completedAt": "2026-09-03T15:05:39.036Z"
+            },
+            {
+              "checkId": "CHK-d554d953-8740-4a6e-8da1-16de32e0d2e9",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:17:28.358Z",
+              "completedAt": "2026-09-03T15:17:28.358Z"
+            },
+            {
+              "checkId": "CHK-2503efb1-ee7d-458c-ad35-3c44a5a725c5",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:00:16.960Z",
+              "completedAt": "2026-09-03T15:00:16.960Z"
+            },
+            {
+              "checkId": "CHK-78de595f-512e-4f4b-9576-d2661e7b7575",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:00:23.682Z",
+              "completedAt": "2026-09-03T15:01:04.750Z"
+            },
+            {
+              "checkId": "CHK-ce05f886-873c-4682-886a-39c5effc71d2",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:15:05.546Z",
+              "completedAt": "2026-09-03T15:15:05.546Z"
+            },
+            {
+              "checkId": "CHK-c86ca33f-df49-4632-8670-e4c22423708e",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:36:47.153Z",
+              "completedAt": "2026-09-03T14:36:47.153Z"
+            },
+            {
+              "checkId": "CHK-a7651615-6c8b-4f6b-b72b-a822c39b6a7f",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:08:43.932Z",
+              "completedAt": "2026-09-03T15:08:43.932Z"
+            },
+            {
+              "checkId": "CHK-3df5630f-4538-4720-816b-d5784c4084c8",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:44:24.107Z",
+              "completedAt": "2026-09-03T14:44:25.558Z"
+            },
+            {
+              "checkId": "CHK-9849753e-a401-4de7-a07b-753261ddb8c8",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:29:39.224Z",
+              "completedAt": "2026-09-03T14:29:39.224Z"
+            },
+            {
+              "checkId": "CHK-e34f015a-4709-4d8d-9bee-fd73df84eec7",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:26:18.526Z",
+              "completedAt": "2026-09-03T15:26:18.526Z"
+            },
+            {
+              "checkId": "CHK-95099fc7-87a7-45f0-9436-17e378f93fa9",
+              "status": "flagged",
+              "createdAt": "2026-09-03T15:01:04.543Z",
+              "completedAt": "2026-09-03T15:01:04.543Z"
+            },
+            {
+              "checkId": "CHK-1a86ba24-059e-4b85-a59f-f0e6675073c1",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:57:49.317Z",
+              "completedAt": "2026-09-03T14:57:49.317Z"
+            },
+            {
+              "checkId": "CHK-aa008513-cb09-4baf-9fb2-160a11772e31",
+              "status": "flagged",
+              "createdAt": "2026-09-03T14:28:48.125Z",
+              "completedAt": "2026-09-03T14:28:48.125Z"
+            }
+          ],
+          "totalCount": 120
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-009",
+        "name": "최지우",
+        "dateOfBirth": "1996-04-03"
+      },
+      "result": {
+        "ms": 30030.033999999992,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "message": "Service Unavailable"
+        }
+      }
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-010",
+        "name": "정하윤",
+        "dateOfBirth": "1989-10-11"
+      },
+      "result": {
+        "ms": 55.44000000000233,
+        "status": 503,
+        "retryAfter": null,
+        "body": {
+          "error": "Service Unavailable",
+          "message": "The service is currently overloaded. Please retry after the specified time.",
+          "retryAfter": 30,
+          "statusCode": 503
+        }
+      }
+    }
+  ],
+  "q2": {
+    "ms": 35.45029999999679,
+    "status": 503,
+    "retryAfter": null,
+    "body": {
+      "error": "Service Unavailable",
+      "message": "The service is currently overloaded. Please retry after the specified time.",
+      "retryAfter": 30,
+      "statusCode": 503
+    }
+  },
+  "q3": {
+    "exampleFromSpec": {
+      "ms": 37.72490000000107,
+      "status": 503,
+      "retryAfter": null,
+      "body": {
+        "error": "Service Unavailable",
+        "message": "The service is currently overloaded. Please retry after the specified time.",
+        "retryAfter": 30,
+        "statusCode": 503
+      }
+    },
+    "obviouslyFake": {
+      "ms": 26168.778900000005,
+      "status": 404,
+      "retryAfter": null,
+      "body": {
+        "error": "Not Found",
+        "message": "Background check not found: CHK-does-not-exist-0000",
+        "statusCode": 404
+      }
+    }
+  },
+  "listSummary": {
+    "n": 10,
+    "p50": 64.82309999999995,
+    "p95": 30030.033999999992,
+    "p99": 30030.033999999992,
+    "max": 30030.033999999992,
+    "min": 27.985499999998865
+  }
+}

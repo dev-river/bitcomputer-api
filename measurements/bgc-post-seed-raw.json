@@ -1,0 +1,372 @@
+{
+  "baseUrl": "https://54capvm12g.execute-api.ap-northeast-2.amazonaws.com",
+  "generatedAt": "2026-09-08T03:34:28.495Z",
+  "results": [
+    {
+      "identity": {
+        "employeeId": "EMP-001",
+        "name": "김민준",
+        "dateOfBirth": "1990-03-15"
+      },
+      "result": {
+        "ms": 1659.8486,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-444d264e-5e85-4d69-b682-8b6f71364d7a",
+          "employeeId": "EMP-001",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:17.824Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "민준",
+        "lastName": "김"
+      },
+      "attempts": [
+        {
+          "ms": 1659.8486,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-444d264e-5e85-4d69-b682-8b6f71364d7a",
+            "employeeId": "EMP-001",
+            "status": "clear",
+            "createdAt": "2026-09-08T03:34:17.824Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "민준",
+          "lastName": "김"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-002",
+        "name": "김민준",
+        "dateOfBirth": "1994-11-02"
+      },
+      "result": {
+        "ms": 145.4459999999999,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-35d13ceb-fced-4f12-8563-0a11bd58cfd6",
+          "employeeId": "EMP-002",
+          "status": "flagged",
+          "createdAt": "2026-09-08T03:34:19.772Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "민준",
+        "lastName": "김"
+      },
+      "attempts": [
+        {
+          "ms": 145.4459999999999,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-35d13ceb-fced-4f12-8563-0a11bd58cfd6",
+            "employeeId": "EMP-002",
+            "status": "flagged",
+            "createdAt": "2026-09-08T03:34:19.772Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "민준",
+          "lastName": "김"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-003",
+        "name": "남궁서준",
+        "dateOfBirth": "1988-07-21"
+      },
+      "result": {
+        "ms": 64.91130000000021,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-63a806f9-c9b0-4e21-bada-b5a928912775",
+          "employeeId": "EMP-003",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:20.913Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "서준",
+        "lastName": "남궁"
+      },
+      "attempts": [
+        {
+          "ms": 64.91130000000021,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-63a806f9-c9b0-4e21-bada-b5a928912775",
+            "employeeId": "EMP-003",
+            "status": "clear",
+            "createdAt": "2026-09-08T03:34:20.913Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "서준",
+          "lastName": "남궁"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-004",
+        "name": "황보라온",
+        "dateOfBirth": "1995-02-09"
+      },
+      "result": {
+        "ms": 71.28990000000067,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-bdcfaecb-42f4-43e1-8bc2-24ca9ca6811a",
+          "employeeId": "EMP-004",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:21.985Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "라온",
+        "lastName": "황보"
+      },
+      "attempts": [
+        {
+          "ms": 71.28990000000067,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-bdcfaecb-42f4-43e1-8bc2-24ca9ca6811a",
+            "employeeId": "EMP-004",
+            "status": "clear",
+            "createdAt": "2026-09-08T03:34:21.985Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "라온",
+          "lastName": "황보"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-005",
+        "name": "김솔",
+        "dateOfBirth": "1992-12-30"
+      },
+      "result": {
+        "ms": 64.99150000000009,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-514b4089-7cf4-415a-a9e3-d15d92cb0d53",
+          "employeeId": "EMP-005",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:23.090Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "솔",
+        "lastName": "김"
+      },
+      "attempts": [
+        {
+          "ms": 64.99150000000009,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-514b4089-7cf4-415a-a9e3-d15d92cb0d53",
+            "employeeId": "EMP-005",
+            "status": "clear",
+            "createdAt": "2026-09-08T03:34:23.090Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "솔",
+          "lastName": "김"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-006",
+        "name": "선우진",
+        "dateOfBirth": "1991-05-05"
+      },
+      "result": {
+        "ms": 53.704499999999825,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+          "employeeId": "EMP-006",
+          "status": "pending",
+          "createdAt": "2026-09-08T03:34:24.142Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "진",
+        "lastName": "선우"
+      },
+      "attempts": [
+        {
+          "ms": 53.704499999999825,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+            "employeeId": "EMP-006",
+            "status": "pending",
+            "createdAt": "2026-09-08T03:34:24.142Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "진",
+          "lastName": "선우"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-007",
+        "name": "이서연",
+        "dateOfBirth": null
+      },
+      "result": {
+        "ms": 28.622799999999188,
+        "status": 400,
+        "retryAfter": null,
+        "body": {
+          "error": "Bad Request",
+          "message": "Missing required field: dateOfBirth",
+          "statusCode": 400
+        },
+        "firstName": "서연",
+        "lastName": "이"
+      },
+      "attempts": [
+        {
+          "ms": 28.622799999999188,
+          "status": 400,
+          "retryAfter": null,
+          "body": {
+            "error": "Bad Request",
+            "message": "Missing required field: dateOfBirth",
+            "statusCode": 400
+          },
+          "firstName": "서연",
+          "lastName": "이"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-008",
+        "name": "박민준",
+        "dateOfBirth": "1993-08-17"
+      },
+      "result": {
+        "ms": 59.51139999999941,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-a9770680-59d5-4c6e-b673-5893c404bf40",
+          "employeeId": "EMP-008",
+          "status": "flagged",
+          "createdAt": "2026-09-08T03:34:26.238Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "민준",
+        "lastName": "박"
+      },
+      "attempts": [
+        {
+          "ms": 59.51139999999941,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-a9770680-59d5-4c6e-b673-5893c404bf40",
+            "employeeId": "EMP-008",
+            "status": "flagged",
+            "createdAt": "2026-09-08T03:34:26.238Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "민준",
+          "lastName": "박"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-009",
+        "name": "최지우",
+        "dateOfBirth": "1996-04-03"
+      },
+      "result": {
+        "ms": 52.607200000000375,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-d8ba5c57-024d-49de-b214-e937164599ed",
+          "employeeId": "EMP-009",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:27.308Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "지우",
+        "lastName": "최"
+      },
+      "attempts": [
+        {
+          "ms": 52.607200000000375,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-d8ba5c57-024d-49de-b214-e937164599ed",
+            "employeeId": "EMP-009",
+            "status": "clear",
+            "createdAt": "2026-09-08T03:34:27.308Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "지우",
+          "lastName": "최"
+        }
+      ]
+    },
+    {
+      "identity": {
+        "employeeId": "EMP-010",
+        "name": "정하윤",
+        "dateOfBirth": "1989-10-11"
+      },
+      "result": {
+        "ms": 85.09650000000147,
+        "status": 201,
+        "retryAfter": null,
+        "body": {
+          "checkId": "CHK-81f0b5a0-a80d-4f3d-8b0a-29eea6163568",
+          "employeeId": "EMP-010",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:28.372Z",
+          "message": "Background check request has been submitted successfully."
+        },
+        "firstName": "하윤",
+        "lastName": "정"
+      },
+      "attempts": [
+        {
+          "ms": 85.09650000000147,
+          "status": 201,
+          "retryAfter": null,
+          "body": {
+            "checkId": "CHK-81f0b5a0-a80d-4f3d-8b0a-29eea6163568",
+            "employeeId": "EMP-010",
+            "status": "clear",
+            "createdAt": "2026-09-08T03:34:28.372Z",
+            "message": "Background check request has been submitted successfully."
+          },
+          "firstName": "하윤",
+          "lastName": "정"
+        }
+      ]
+    }
+  ]
+}

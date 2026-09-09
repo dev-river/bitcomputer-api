@@ -1,0 +1,114 @@
+{
+  "normalCase": {
+    "employeeId": "EMP-005",
+    "checkId": "CHK-514b4089-7cf4-415a-a9e3-d15d92cb0d53",
+    "createdAt": "2026-09-08T03:34:23.090Z",
+    "statusAtCreation": "clear",
+    "get": {
+      "ms": 102.4708,
+      "status": 500,
+      "body": {
+        "error": "Internal Server Error",
+        "message": "Service temporarily unavailable. Please try again later.",
+        "statusCode": 500
+      }
+    },
+    "elapsedSec": 0
+  },
+  "pendingCase": {
+    "employeeId": "EMP-006",
+    "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+    "createdAt": "2026-09-08T03:34:24.142Z",
+    "statusAtCreation": "pending",
+    "pollLog": [
+      {
+        "elapsedSec": 3.2532749,
+        "ms": 249.6497999999997,
+        "status": 200,
+        "body": {
+          "employeeId": "EMP-006",
+          "completedAt": null,
+          "creditScore": null,
+          "educationVerified": null,
+          "lastName": "선우",
+          "status": "pending",
+          "createdAt": "2026-09-08T03:34:24.142Z",
+          "employmentVerified": null,
+          "dateOfBirth": "1991-05-05",
+          "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+          "criminalRecord": null,
+          "firstName": "진"
+        }
+      },
+      {
+        "elapsedSec": 33.291264600000005,
+        "ms": 27022.8552,
+        "status": 200,
+        "body": {
+          "employeeId": "EMP-006",
+          "completedAt": null,
+          "creditScore": null,
+          "educationVerified": null,
+          "lastName": "선우",
+          "status": "pending",
+          "createdAt": "2026-09-08T03:34:24.142Z",
+          "employmentVerified": null,
+          "dateOfBirth": "1991-05-05",
+          "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+          "criminalRecord": null,
+          "firstName": "진"
+        }
+      },
+      {
+        "elapsedSec": 66.30560249999999,
+        "ms": 30009.302099999994,
+        "status": 503,
+        "body": {
+          "message": "Service Unavailable"
+        }
+      },
+      {
+        "elapsedSec": 99.3228096,
+        "ms": 30007.683099999995,
+        "status": 503,
+        "body": {
+          "message": "Service Unavailable"
+        }
+      },
+      {
+        "elapsedSec": 102.7002098,
+        "ms": 365.4796999999962,
+        "status": 200,
+        "body": {
+          "employeeId": "EMP-006",
+          "completedAt": "2026-09-08T04:11:53.370Z",
+          "creditScore": "poor",
+          "educationVerified": true,
+          "lastName": "선우",
+          "status": "clear",
+          "createdAt": "2026-09-08T03:34:24.142Z",
+          "employmentVerified": true,
+          "dateOfBirth": "1991-05-05",
+          "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+          "criminalRecord": false,
+          "firstName": "진"
+        }
+      }
+    ],
+    "finalStatus": "clear",
+    "finalBody": {
+      "employeeId": "EMP-006",
+      "completedAt": "2026-09-08T04:11:53.370Z",
+      "creditScore": "poor",
+      "educationVerified": true,
+      "lastName": "선우",
+      "status": "clear",
+      "createdAt": "2026-09-08T03:34:24.142Z",
+      "employmentVerified": true,
+      "dateOfBirth": "1991-05-05",
+      "checkId": "CHK-b5cb1d48-e703-4f25-b314-ab12042df8ee",
+      "criminalRecord": false,
+      "firstName": "진"
+    }
+  }
+}
