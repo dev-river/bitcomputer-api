@@ -23,7 +23,7 @@
 
 | 로그인ID | 초기 비밀번호 | 역할 |
 |---|---|---|
-| `ADMIN-001` | `ChangeMe123!` | 관리자 |
+| `ADMIN-001` | `BitComputer123!` | 관리자 |
 | `EMP-001` | `ChangeMe123!` | 직원 (최초 로그인 시 비밀번호 변경 필수) |
 
 ## 배포 (Railway)
@@ -31,7 +31,7 @@
 1. Railway 프로젝트 생성 → PostgreSQL 플러그인 추가 (Railway가 `DATABASE_URL` 등을 자동 주입하므로 `DB_URL`/`DB_USERNAME`/`DB_PASSWORD`는 해당 값에 맞게 재매핑해서 설정)
 2. 이 저장소를 연결하면 `Dockerfile`로 자동 빌드됨
 3. 위 표의 환경변수를 Railway 서비스 Variables에 등록
-4. 배포 후 헬스체크: `POST /auth/login`에 시드 계정(JSON body: `{"loginId":"ADMIN-001","password":"ChangeMe123!"}`)으로 로그인 요청을 보내 200이 오는지 확인
+4. 배포 후 헬스체크: `POST /auth/login`에 시드 계정(JSON body: `{"loginId":"ADMIN-001","password":"BitComputer123!"}`)으로 로그인 요청을 보내 200이 오는지 확인
 
 ## BGC API 실측값
 

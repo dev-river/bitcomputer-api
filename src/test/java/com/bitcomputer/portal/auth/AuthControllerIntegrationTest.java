@@ -40,7 +40,7 @@ class AuthControllerIntegrationTest {
     void login_withSeededAdminCredentials_returnsToken() throws Exception {
         var body = objectMapper.writeValueAsString(new Object() {
             public String loginId = "ADMIN-001";
-            public String password = "ChangeMe123!";
+            public String password = "BitComputer123!";
         });
 
         mockMvc.perform(post("/auth/login").contentType(APPLICATION_JSON).content(body))

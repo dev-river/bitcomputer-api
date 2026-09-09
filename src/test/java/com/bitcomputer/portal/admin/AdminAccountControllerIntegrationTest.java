@@ -37,7 +37,7 @@ class AdminAccountControllerIntegrationTest {
 
     @Test
     void createAccount_forEmployeeWithoutOne_returnsTempPasswordThatLogsIn() throws Exception {
-        String adminToken = login("ADMIN-001", "ChangeMe123!");
+        String adminToken = login("ADMIN-001", "BitComputer123!");
         int emp005Id = employeeMapper.findByEmpNo("EMP-005").getId();
 
         var body = objectMapper.createObjectNode().put("employeeId", emp005Id);
@@ -58,7 +58,7 @@ class AdminAccountControllerIntegrationTest {
 
     @Test
     void createAccount_forEmployeeThatAlreadyHasOne_returns409() throws Exception {
-        String adminToken = login("ADMIN-001", "ChangeMe123!");
+        String adminToken = login("ADMIN-001", "BitComputer123!");
         int emp001Id = employeeMapper.findByEmpNo("EMP-001").getId();
 
         var body = objectMapper.createObjectNode().put("employeeId", emp001Id);
@@ -70,7 +70,7 @@ class AdminAccountControllerIntegrationTest {
 
     @Test
     void createAccount_withMissingEmployeeId_returns400InsteadOf500() throws Exception {
-        String adminToken = login("ADMIN-001", "ChangeMe123!");
+        String adminToken = login("ADMIN-001", "BitComputer123!");
 
         mockMvc.perform(post("/admin/accounts").header("Authorization", "Bearer " + adminToken)
                 .contentType(APPLICATION_JSON).content("{}"))

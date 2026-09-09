@@ -74,7 +74,7 @@ class EmployeeSelfControllerIntegrationTest {
 
     @Test
     void adminRole_cannotAccessMeEndpoint() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         mockMvc.perform(get("/me").header("Authorization", "Bearer " + token))
             .andExpect(status().isForbidden());
     }

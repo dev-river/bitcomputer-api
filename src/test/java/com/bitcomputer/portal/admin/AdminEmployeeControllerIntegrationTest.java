@@ -37,7 +37,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void listEmployees_asAdmin_returnsAllTenSeeded() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         mockMvc.perform(get("/admin/employees").header("Authorization", "Bearer " + token))
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.data.length()").value(10));
@@ -52,7 +52,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void searchByName_filtersDuplicateNames() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         mockMvc.perform(get("/admin/employees?name=김민준").header("Authorization", "Bearer " + token))
             .andExpect(status().isOk())
             .andExpect(jsonPath("$.data.length()").value(2));
@@ -60,7 +60,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void getDetail_includesEmptyChangeLogForUntouchedEmployee() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         var listResult = mockMvc.perform(get("/admin/employees?empNo=EMP-003").header("Authorization", "Bearer " + token)).andReturn();
         JsonNode list = objectMapper.readTree(listResult.getResponse().getContentAsString()).get("data");
         int id = list.get(0).get("id").asInt();
@@ -73,7 +73,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void createEmployee_asAdmin_generatesNextEmpNoAndInsertsRecord() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         var body = objectMapper.createObjectNode()
             .put("name", "신규직원")
             .put("department", "개발팀")
@@ -119,7 +119,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void createEmployee_missingName_returns400() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         var body = objectMapper.createObjectNode()
             .put("department", "개발팀")
             .put("position", "사원")
@@ -136,7 +136,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void createEmployee_missingDateOfBirth_returns400() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         var body = objectMapper.createObjectNode()
             .put("name", "신규직원")
             .put("department", "개발팀")
@@ -153,7 +153,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void createEmployee_onlyNameAndDateOfBirth_succeedsWithOtherFieldsNull() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         var body = objectMapper.createObjectNode()
             .put("name", "최소입력직원")
             .put("dateOfBirth", "1990-03-03");
@@ -168,7 +168,7 @@ class AdminEmployeeControllerIntegrationTest {
 
     @Test
     void terminate_setsStatusAndBlocksSubsequentLogin() throws Exception {
-        String adminToken = login("ADMIN-001", "ChangeMe123!");
+        String adminToken = login("ADMIN-001", "BitComputer123!");
         var listResult = mockMvc.perform(get("/admin/employees?empNo=EMP-001").header("Authorization", "Bearer " + adminToken)).andReturn();
         int id = objectMapper.readTree(listResult.getResponse().getContentAsString()).get("data").get(0).get("id").asInt();
 

@@ -41,7 +41,7 @@ class AdminBackgroundCheckControllerIntegrationTest {
 
     @Test
     void rerun_whenPendingExists_returns409() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         int employeeId = employeeMapper.findByEmpNo("EMP-010").getId();
 
         BackgroundCheck pending = new BackgroundCheck();
@@ -59,7 +59,7 @@ class AdminBackgroundCheckControllerIntegrationTest {
 
     @Test
     void history_returnsSeededMaskingDemoRecordForEmp001() throws Exception {
-        String token = login("ADMIN-001", "ChangeMe123!");
+        String token = login("ADMIN-001", "BitComputer123!");
         int employeeId = employeeMapper.findByEmpNo("EMP-001").getId();
 
         mockMvc.perform(get("/admin/employees/" + employeeId + "/background-checks")
