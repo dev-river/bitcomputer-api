@@ -33,6 +33,6 @@
 3. 위 표의 환경변수를 Railway 서비스 Variables에 등록
 4. 배포 후 헬스체크: `POST /auth/login`에 시드 계정(JSON body: `{"loginId":"ADMIN-001","password":"ChangeMe123!"}`)으로 로그인 요청을 보내 200이 오는지 확인
 
-## 측정값 플레이스홀더
+## BGC API 실측값
 
-`application.yml`의 `bgc.timeout-ms`, `bgc.retry-count`, `bgc.retry-interval-ms`, `bgc.poll-interval-ms`, `bgc.max-poll-retry-count`는 실제 Background Check API를 실측하기 전 임시값입니다. `MEASUREMENTS.md` 작성 후 이 값들을 실측 근거로 교체하세요.
+`application.yml`의 `bgc.timeout-ms`, `bgc.retry-count`, `bgc.retry-interval-ms`, `bgc.poll-interval-ms`, `bgc.max-poll-retry-count`는 실제 Background Check API를 직접 호출해 측정한 값으로 확정했습니다. 측정 방법·원본 데이터·도출 과정은 [MEASUREMENTS.md](MEASUREMENTS.md) 참조.

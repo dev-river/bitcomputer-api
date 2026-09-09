@@ -84,4 +84,14 @@ class BackgroundCheckServiceIntegrationTest {
         assertThrows(PortalException.class, () -> backgroundCheckService.triggerManualRerun(employeeId, 1));
         mockServer.verify(); // no HTTP expectations were set, so this also proves no call was made
     }
+
+    @Test
+    void submit_staysAnnotatedAsync() throws NoSuchMethodException {
+        // Guards against silently losing the @Async annotation on BackgroundCheckAsyncRunner.submit
+        // (MEASUREMENTS.md §4-1 fix) — a regression there wouldn't fail any other test, since
+        // TestAsyncConfig makes async and sync execution produce identical observable results here.
+        var method = BackgroundCheckAsyncRunner.class.getMethod(
+            "submit", int.class, String.class, NameSplitter.SplitName.class, String.class);
+        assertThat(method.isAnnotationPresent(org.springframework.scheduling.annotation.Async.class)).isTrue();
+    }
 }

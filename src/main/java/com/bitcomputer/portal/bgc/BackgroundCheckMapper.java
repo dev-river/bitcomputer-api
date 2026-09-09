@@ -14,6 +14,7 @@ public interface BackgroundCheckMapper {
     List<BackgroundCheck> findAllPending();
     int updateAfterPollSuccess(int id, String status, String criminalRecord, String educationVerified,
                                String employmentVerified, String creditScore, LocalDateTime completedAt);
+    int updateAfterCreateSuccess(int id, String externalCheckId, String status);
     int updateAfterPollError(int id, String errorMessage, LocalDateTime lastErrorAt);
     int updateStatusToError(int id, String errorMessage);
     List<BackgroundCheck> findMaskCandidates(LocalDateTime cutoff);

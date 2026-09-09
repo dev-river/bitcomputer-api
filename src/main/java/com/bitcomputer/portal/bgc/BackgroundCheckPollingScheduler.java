@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
+import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 
@@ -14,14 +15,17 @@ public class BackgroundCheckPollingScheduler {
     private final BackgroundCheckMapper backgroundCheckMapper;
     private final BackgroundCheckApiClient apiClient;
     private final int maxRetryCount;
+    private final long maxPendingDurationMs;
     private final boolean pollingEnabled;
 
     public BackgroundCheckPollingScheduler(BackgroundCheckMapper backgroundCheckMapper, BackgroundCheckApiClient apiClient,
                                             @Value("${bgc.max-poll-retry-count}") int maxRetryCount,
+                                            @Value("${bgc.max-pending-duration-ms}") long maxPendingDurationMs,
                                             @Value("${bgc.polling-enabled:true}") boolean pollingEnabled) {
         this.backgroundCheckMapper = backgroundCheckMapper;
         this.apiClient = apiClient;
         this.maxRetryCount = maxRetryCount;
+        this.maxPendingDurationMs = maxPendingDurationMs;
         this.pollingEnabled = pollingEnabled;
     }
 
@@ -35,9 +39,23 @@ public class BackgroundCheckPollingScheduler {
         }
     }
 
+    /**
+     * maxRetryCount only bounds consecutive API-call FAILURES — a check the API keeps answering
+     * "200 pending" for never increments it and would poll forever (MEASUREMENTS.md §4-2: 12 real
+     * checks were still pending after 4+ days, one historical case took 3.6 days to resolve). This
+     * age check is the actual backstop: regardless of whether calls are succeeding, a check pending
+     * longer than bgc.max-pending-duration-ms is given up on and left for a manual rerun.
+     */
     public void pollOne(BackgroundCheck check) {
+        if (isPendingTooLong(check)) {
+            backgroundCheckMapper.updateStatusToError(check.getId(),
+                "요청 후 " + (maxPendingDurationMs / 60_000) + "분 넘게 완료되지 않아 자동 종료됨 — 관리자가 재실행 가능");
+            return;
+        }
+
         if (check.getExternalCheckId() == null) {
-            backgroundCheckMapper.updateStatusToError(check.getId(), "external_check_id missing for a pending row");
+            // BackgroundCheckAsyncRunner hasn't updated this row yet (its call to the external API
+            // is still in flight) — not an error, just not ready to poll. Try again next tick.
             return;
         }
 
@@ -60,6 +78,10 @@ public class BackgroundCheckPollingScheduler {
                 backgroundCheckMapper.updateAfterPollError(check.getId(), e.getMessage(), LocalDateTime.now());
             }
         }
+    }
+
+    private boolean isPendingTooLong(BackgroundCheck check) {
+        return Duration.between(check.getRequestedAt(), LocalDateTime.now()).toMillis() >= maxPendingDurationMs;
     }
 
     private LocalDateTime parseCompletedAt(String iso) {

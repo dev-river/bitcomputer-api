@@ -65,4 +65,25 @@ public class EmployeeService {
         getById(id);
         employeeMapper.updateStatus(id, "TERMINATED", java.time.LocalDateTime.now());
     }
+
+    @Transactional
+    public Employee create(String name, String department, String position, java.time.LocalDate hireDate,
+                            String email, String phone, String address, String dateOfBirth) {
+        Integer maxSuffix = employeeMapper.findMaxEmpNoSuffix();
+        String empNo = String.format("EMP-%03d", (maxSuffix != null ? maxSuffix : 0) + 1);
+
+        Employee employee = new Employee();
+        employee.setEmpNo(empNo);
+        employee.setName(name);
+        employee.setDepartment(department);
+        employee.setPosition(position);
+        employee.setHireDate(hireDate);
+        employee.setEmail(email);
+        employee.setPhone(phone);
+        employee.setAddress(address);
+        employee.setDateOfBirth(dateOfBirth);
+        employee.setStatus("ACTIVE");
+        employeeMapper.insert(employee);
+        return employee;
+    }
 }

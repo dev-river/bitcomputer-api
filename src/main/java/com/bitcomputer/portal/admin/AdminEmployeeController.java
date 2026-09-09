@@ -1,6 +1,7 @@
 package com.bitcomputer.portal.admin;
 
 import com.bitcomputer.portal.account.AccountMapper;
+import com.bitcomputer.portal.admin.dto.CreateEmployeeRequest;
 import com.bitcomputer.portal.admin.dto.EmployeeDetailResponse;
 import com.bitcomputer.portal.admin.dto.EmployeeListItemResponse;
 import com.bitcomputer.portal.common.ApiResponse;
@@ -8,6 +9,7 @@ import com.bitcomputer.portal.employee.Employee;
 import com.bitcomputer.portal.employee.EmployeeChangeLogMapper;
 import com.bitcomputer.portal.employee.EmployeeSearchCriteria;
 import com.bitcomputer.portal.employee.EmployeeService;
+import jakarta.validation.Valid;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
@@ -41,6 +43,14 @@ public class AdminEmployeeController {
     public ApiResponse<EmployeeDetailResponse> detail(@PathVariable int id) {
         Employee employee = employeeService.getById(id);
         return ApiResponse.success(EmployeeDetailResponse.from(employee, changeLogMapper.findByEmployeeId(id)));
+    }
+
+    @PostMapping
+    public ApiResponse<EmployeeDetailResponse> create(@Valid @RequestBody CreateEmployeeRequest request) {
+        Employee employee = employeeService.create(
+            request.getName(), request.getDepartment(), request.getPosition(), request.getHireDate(),
+            request.getEmail(), request.getPhone(), request.getAddress(), request.getDateOfBirth());
+        return ApiResponse.success(EmployeeDetailResponse.from(employee, List.of()));
     }
 
     @PostMapping("/{id}/terminate")

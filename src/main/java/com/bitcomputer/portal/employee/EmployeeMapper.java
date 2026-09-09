@@ -13,4 +13,6 @@ public interface EmployeeMapper {
     int updateContactInfo(int id, String phone, String email, String address);
     int updateStatus(int id, String status, LocalDateTime terminatedAt);
     int updateDateOfBirth(int id, String dateOfBirth);
+    Integer findMaxEmpNoSuffix();
+    int insert(Employee employee);
 }

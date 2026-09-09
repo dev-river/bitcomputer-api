@@ -52,6 +52,10 @@
         WHERE id = #{id}
     </update>
 
+    <update id="updateAfterCreateSuccess">
+        UPDATE background_check SET external_check_id = #{externalCheckId}, status = #{status} WHERE id = #{id}
+    </update>
+
     <update id="updateAfterPollError">
         UPDATE background_check
         SET error_message = #{errorMessage}, retry_count = retry_count + 1, last_error_at = #{lastErrorAt}

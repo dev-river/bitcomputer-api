@@ -1,11 +1,11 @@
 server:
-  port: ${PORT:8080}
+  port: ${PORT:8090}
 
 spring:
   datasource:
     url: ${DB_URL:jdbc:postgresql://localhost:5432/bitcomputer}
     username: ${DB_USERNAME:postgres}
-    password: ${DB_PASSWORD:postgres}
+    password: ${DB_PASSWORD:teamDego1!}
   flyway:
     locations: classpath:db/migration
     baseline-on-migrate: true
@@ -14,19 +14,21 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
 
 aes:
-  secret-key: ${AES_SECRET_KEY}
+  secret-key: ${AES_SECRET_KEY:YYTlqy+yJyJYubJAh+ZSFI/TcMC4dYxylbBsZWNGHss=}
 
 jwt:
-  secret: ${JWT_SECRET}
+  secret: ${JWT_SECRET:aNXe0Oqc0Ctxvuta1nE3Np07dkfjR3cm8/kRd70s0WI=}
   expiration-ms: 28800000   # 8h
 
 bgc:
   base-url: ${BGC_API_BASE_URL:https://54capvm12g.execute-api.ap-northeast-2.amazonaws.com}
-  timeout-ms: 5000          # placeholder — finalize from MEASUREMENTS.md
-  retry-count: 2            # placeholder
-  retry-interval-ms: 1000   # placeholder
-  poll-interval-ms: 5000    # placeholder
-  max-poll-retry-count: 20  # placeholder
+  # 아래 값들은 실제 API 실측 결과로 확정됨 — 근거는 MEASUREMENTS.md 참조
+  timeout-ms: 32000
+  retry-count: 2
+  retry-interval-ms: 30000
+  poll-interval-ms: 10000
+  max-poll-retry-count: 60
+  max-pending-duration-ms: 2400000  # 40분 — 실측 최장 확인 사례(37.5분)는 커버하되 무한 대기는 방지
   polling-enabled: true     # set to false in test profiles to avoid racing MockRestServiceServer expectations
   masking-cron: "0 0 3 * * *"
   masking-retention-days: 90

@@ -12,3 +12,7 @@ bgc:
   polling-enabled: false   # the real @Scheduled loop must not run in tests — it would race with each
                            # test's MockRestServiceServer expectations and poll leftover PENDING rows
                            # committed by earlier tests. Tests call scheduler.pollOne(check) directly.
+  retry-interval-ms: 10    # production value (30000ms, from MEASUREMENTS.md) would make executeWithRetry's
+                           # real Thread.sleep actually block retry-path tests for tens of seconds
+  max-poll-retry-count: 20 # kept independent of the production value (60, from MEASUREMENTS.md) so the
+                           # ERROR-transition threshold tests don't need to track that tuning number

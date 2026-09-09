@@ -54,4 +54,21 @@
         WHERE id = #{id}
     </update>
 
+    <select id="findMaxEmpNoSuffix" resultType="java.lang.Integer">
+        SELECT MAX(CAST(SUBSTRING(emp_no, 5) AS INTEGER))
+        FROM employee
+        WHERE emp_no LIKE 'EMP-%'
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO employee (emp_no, name, department, position, hire_date, email, date_of_birth, phone, address, status)
+        VALUES (
+            #{empNo}, #{name}, #{department}, #{position}, #{hireDate}, #{email},
+            #{dateOfBirth, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            #{phone, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            #{address, typeHandler=com.bitcomputer.portal.crypto.EncryptedStringTypeHandler},
+            #{status}
+        )
+    </insert>
+
 </mapper>

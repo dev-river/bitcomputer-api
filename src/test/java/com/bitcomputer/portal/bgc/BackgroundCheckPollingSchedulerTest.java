@@ -103,7 +103,7 @@ class BackgroundCheckPollingSchedulerTest {
 
     @Test
     void pollOne_failureAtThreshold_transitionsToError() {
-        // application.yml default bgc.max-poll-retry-count=20 (placeholder) — seed retryCount one below it
+        // application-test.yml pins bgc.max-poll-retry-count=20 (independent of the production value) — seed retryCount one below it
         BackgroundCheck check = insertPending("EMP-008", "CHK-poll-4", 19);
         for (int i = 0; i < 3; i++) {
             mockServer.expect(requestTo("http://localhost:9999/background-checks/CHK-poll-4"))
@@ -113,5 +113,43 @@ class BackgroundCheckPollingSchedulerTest {
         scheduler.pollOne(check);
 
         assertThat(backgroundCheckMapper.findById(check.getId()).getStatus()).isEqualTo("ERROR");
+    }
+
+    @Test
+    void pollOne_pendingLongerThanMaxDuration_transitionsToErrorWithoutCallingApi() {
+        // application.yml bgc.max-pending-duration-ms=2,400,000 (40 min) — seed a row requested
+        // 41 minutes ago so it's past the threshold regardless of retryCount or API behavior.
+        // MEASUREMENTS.md §4-2: without this check, a row the API keeps answering "200 pending"
+        // for (not an error) would poll forever — 12 real checks were still pending after 4+ days.
+        //
+        // Built directly (not via insertPending + a follow-up jdbcTemplate backdate) because
+        // MyBatis's session-level cache would otherwise return the pre-backdate row on the next
+        // findById(...) in this same session — a raw-JDBC write doesn't invalidate it.
+        int employeeId = employeeMapper.findByEmpNo("EMP-009").getId();
+        BackgroundCheck check = new BackgroundCheck();
+        check.setEmployeeId(employeeId);
+        check.setExternalCheckId("CHK-poll-5");
+        check.setStatus("PENDING");
+        check.setRequestedAt(LocalDateTime.now().minusMinutes(41));
+        check.setTriggeredByAccountId(1);
+        backgroundCheckMapper.insert(check);
+
+        scheduler.pollOne(check);
+
+        assertThat(backgroundCheckMapper.findById(check.getId()).getStatus()).isEqualTo("ERROR");
+        mockServer.verify(); // no HTTP expectations were set, so this also proves no call was made
+    }
+
+    @Test
+    void pollOne_externalCheckIdNotYetSet_skipsWithoutErroring() {
+        // Simulates the window between BackgroundCheckService's synchronous PENDING insert and
+        // BackgroundCheckAsyncRunner's async update of externalCheckId — must not be mistaken for
+        // a data-integrity error (that used to error immediately; see git history).
+        BackgroundCheck check = insertPending("EMP-004", null, 0);
+
+        scheduler.pollOne(backgroundCheckMapper.findById(check.getId()));
+
+        assertThat(backgroundCheckMapper.findById(check.getId()).getStatus()).isEqualTo("PENDING");
+        mockServer.verify(); // no HTTP expectations were set, so this also proves no call was made
     }
 }
